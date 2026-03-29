@@ -4,7 +4,7 @@
 
 <h1 align="center">xiaojiou176-open</h1>
 
-<p align="center"><strong>Open-source local-first AI tools for browser automation, traceable research, and operator workflows.</strong></p>
+<p align="center"><strong>Open-source AI tools for browser workflows, source-grounded research, and practical operator software.</strong></p>
 
 <p align="center">
   <img alt="13 public repos" src="https://img.shields.io/badge/public%20repos-13-111827?style=for-the-badge">
@@ -20,7 +20,7 @@
   <a href="#design-principles"><strong>Design principles</strong></a>
 </p>
 
-This organization is the public showcase for systems that are meant to be understandable from the outside: products with visible state, inspectable evidence, practical operator surfaces, and a clear story about what they are trying to solve. It is a portfolio, not a dumping ground.
+This organization is the public showcase for software that should make sense from the outside. The goal is simple: when someone lands here, they should be able to tell what each repo helps a user do, where to start, and why the product is worth a closer look. It is a portfolio, not a dumping ground.
 
 Built by [Terry Yu](https://github.com/xiaojiou176).
 
@@ -32,7 +32,7 @@ The repositories in this org are organized around five connected product lines:
   <tr>
     <td width="50%" valign="top">
       <strong>AI orchestration and control planes</strong><br>
-      Governing AI and automation work with evidence, replay, and operator visibility.<br><br>
+      Software for running work, supervising execution, and reviewing what happened after the run.<br><br>
       <strong>Representative repos:</strong><br>
       <a href="https://github.com/xiaojiou176-open/CortexPilot-public">CortexPilot-public</a><br>
       <a href="https://github.com/xiaojiou176-open/ui-automation-control-plane">ui-automation-control-plane</a>
@@ -48,7 +48,7 @@ The repositories in this org are organized around five connected product lines:
   <tr>
     <td width="50%" valign="top">
       <strong>Research and knowledge systems</strong><br>
-      Building search, writing, and knowledge workflows that preserve sources and auditability.<br><br>
+      Tools for turning raw sources into reusable notes, searchable corpora, and inspectable outputs.<br><br>
       <strong>Representative repos:</strong><br>
       <a href="https://github.com/xiaojiou176-open/sourceharbor">sourceharbor</a><br>
       <a href="https://github.com/xiaojiou176-open/provenote">provenote</a><br>
@@ -56,7 +56,7 @@ The repositories in this org are organized around five connected product lines:
     </td>
     <td width="50%" valign="top">
       <strong>Product-facing AI tools</strong><br>
-      Bringing AI systems closer to real operator and end-user workflows.<br><br>
+      User-facing AI products that do a concrete job instead of stopping at a cool demo.<br><br>
       <strong>Representative repos:</strong><br>
       <a href="https://github.com/xiaojiou176-open/openui-mcp-studio">openui-mcp-studio</a><br>
       <a href="https://github.com/xiaojiou176-open/multi-ai-sidepanel">multi-ai-sidepanel</a><br>
@@ -84,38 +84,46 @@ The repositories in this org are organized around five connected product lines:
 
 ## Start with these six
 
-If this is your first visit, start with one of these:
+If this is your first visit, these six repos are the fastest way to understand the shape of the portfolio:
 
 <table>
   <tr>
     <td width="33%" valign="top">
       <strong><a href="https://github.com/xiaojiou176-open/CortexPilot-public">CortexPilot-public</a></strong><br>
-      The clearest entry point into orchestration, governance, and operator visibility.
+      Run governed AI tasks, inspect evidence bundles, and replay failures without guesswork.
     </td>
     <td width="33%" valign="top">
       <strong><a href="https://github.com/xiaojiou176-open/ui-automation-control-plane">ui-automation-control-plane</a></strong><br>
-      The control-plane view of browser automation, proof, and quality gates.
+      Run browser workflows, review proof, and decide whether a result is ready to ship.
     </td>
     <td width="33%" valign="top">
       <strong><a href="https://github.com/xiaojiou176-open/provenote">provenote</a></strong><br>
-      Source-grounded writing and research workflows with auditable outputs.
+      Import one source, search it, and export auditable markdown you can inspect later.
     </td>
   </tr>
   <tr>
     <td width="33%" valign="top">
       <strong><a href="https://github.com/xiaojiou176-open/prooftrail">prooftrail</a></strong><br>
-      Inspectable browser automation built for repeatability and recovery.
+      Run one workflow, inspect one evidence bundle, and recover with facts instead of guesswork.
     </td>
     <td width="33%" valign="top">
       <strong><a href="https://github.com/xiaojiou176-open/sourceharbor">sourceharbor</a></strong><br>
-      A knowledge pipeline for turning noisy source streams into operator context.
+      Subscribe to source streams and turn them into digests, job traces, and searchable artifacts.
     </td>
     <td width="33%" valign="top">
       <strong><a href="https://github.com/xiaojiou176-open/openui-mcp-studio">openui-mcp-studio</a></strong><br>
-      AI-assisted UI generation with verification and production-minded workflow guardrails.
+      Turn UI briefs into React and shadcn files you can preview and verify.
     </td>
   </tr>
 </table>
+
+## What to expect from repos here
+
+Across this org, the public repos should make three things easy to find:
+
+- the fastest honest first result
+- the docs page that gets a new visitor moving
+- the boundary between what is already public-proof and what still needs local setup or maintainer-only steps
 
 ## Full repo atlas
 
