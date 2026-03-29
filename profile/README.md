@@ -16,15 +16,15 @@
 <p align="center">
   <a href="https://github.com/xiaojiou176"><strong>Builder profile</strong></a> •
   <a href="#start-with-these-six"><strong>Start here</strong></a> •
-  <a href="#full-repo-atlas"><strong>Full atlas</strong></a> •
-  <a href="#design-principles"><strong>Design principles</strong></a>
+  <a href="#-full-repo-atlas"><strong>Full atlas</strong></a> •
+  <a href="#-technical-shape"><strong>Technical shape</strong></a>
 </p>
 
 This organization is the public showcase for software that should make sense from the outside. The goal is simple: when someone lands here, they should be able to tell what each repo helps a user do, where to start, and why the product is worth a closer look. It is a portfolio, not a dumping ground.
 
 Built by [Terry Yu](https://github.com/xiaojiou176).
 
-## What lives here
+## 🎯 What lives here
 
 The repositories in this org are organized around five connected product lines:
 
@@ -82,7 +82,7 @@ The repositories in this org are organized around five connected product lines:
   </tr>
 </table>
 
-## Start with these six
+## 🚀 Start with these six
 
 If this is your first visit, these six repos are the fastest way to understand the shape of the portfolio:
 
@@ -117,7 +117,7 @@ If this is your first visit, these six repos are the fastest way to understand t
   </tr>
 </table>
 
-## What to expect from repos here
+## 👀 What to expect from repos here
 
 Across this org, the public repos should make three things easy to find:
 
@@ -125,57 +125,63 @@ Across this org, the public repos should make three things easy to find:
 - the docs page that gets a new visitor moving
 - the boundary between what is already public-proof and what still needs local setup or maintainer-only steps
 
-## Full repo atlas
+## 🗺️ Full repo atlas
 
 All **13 public repositories**, with no hiding:
 
-### 1. AI orchestration and control planes
+### 🧠 AI orchestration and control planes
 
-| Repo | What it does |
-| --- | --- |
-| [CortexPilot-public](https://github.com/xiaojiou176-open/CortexPilot-public) | Governed AI task orchestration with evidence, replay, and operator visibility |
-| [ui-automation-control-plane](https://github.com/xiaojiou176-open/ui-automation-control-plane) | Browser automation control plane for repeatable proof and release-ready quality gates |
+- [CortexPilot-public](https://github.com/xiaojiou176-open/CortexPilot-public)
+  Governed AI task orchestration for running work, reviewing evidence, and replaying failures without guesswork.
+- [ui-automation-control-plane](https://github.com/xiaojiou176-open/ui-automation-control-plane)
+  Browser automation control plane for running flows, reviewing proof, and shipping with governed quality gates.
 
-### 2. Auditable browser workflows
+### 🧪 Auditable browser workflows
 
-| Repo | What it does |
-| --- | --- |
-| [prooftrail](https://github.com/xiaojiou176-open/prooftrail) | Auditable browser automation for repeatable runs and recovery-ready workflows |
-| [multi-ai-sidepanel](https://github.com/xiaojiou176-open/multi-ai-sidepanel) | Local-first browser extension for side-by-side AI comparison |
-| [campus-copilot](https://github.com/xiaojiou176-open/campus-copilot) | Local-first academic organizer for Canvas, Gradescope, EdStem, and MyUW |
+- [prooftrail](https://github.com/xiaojiou176-open/prooftrail)
+  Run workflows through one canonical path and inspect the evidence bundle afterward.
+- [multi-ai-sidepanel](https://github.com/xiaojiou176-open/multi-ai-sidepanel)
+  Compare major AI tools side by side in one browser extension.
+- [campus-copilot](https://github.com/xiaojiou176-open/campus-copilot)
+  Organize academic workflows from multiple platforms in one local-first product.
 
-### 3. Research and knowledge systems
+### 📚 Research and knowledge systems
 
-| Repo | What it does |
-| --- | --- |
-| [sourceharbor](https://github.com/xiaojiou176-open/sourceharbor) | Turn YouTube, Bilibili, and RSS into searchable digests and traceable knowledge flows |
-| [provenote](https://github.com/xiaojiou176-open/provenote) | Source-grounded writing, searchable sources, auditable markdown, and traceable outputs |
-| [docsiphon](https://github.com/xiaojiou176-open/docsiphon) | Convert docsites into AI-ready local corpora with preserved paths and audit artifacts |
+- [sourceharbor](https://github.com/xiaojiou176-open/sourceharbor)
+  Pull source streams into digests, job traces, and searchable artifacts.
+- [provenote](https://github.com/xiaojiou176-open/provenote)
+  Import one source, search it, and export auditable markdown you can inspect later.
+- [docsiphon](https://github.com/xiaojiou176-open/docsiphon)
+  Convert docsites into local corpora that agents and operators can actually reuse.
 
-### 4. Product-facing AI tools
+### 🎨 Product-facing AI tools
 
-| Repo | What it does |
-| --- | --- |
-| [openui-mcp-studio](https://github.com/xiaojiou176-open/openui-mcp-studio) | Generate, apply, and verify production-ready React and shadcn UI from natural-language briefs |
-| [dealwatch](https://github.com/xiaojiou176-open/dealwatch) | Cross-store grocery price tracking with compare preview, watch tasks, effective price, and alert history |
+- [openui-mcp-studio](https://github.com/xiaojiou176-open/openui-mcp-studio)
+  Turn UI briefs into React and shadcn files you can preview and verify.
+- [dealwatch](https://github.com/xiaojiou176-open/dealwatch)
+  Track grocery prices across stores with compare views, watch tasks, and alert history.
 
-### 5. Local-first utilities and recovery tools
+### 🧰 Local-first utilities and recovery tools
 
-| Repo | What it does |
-| --- | --- |
-| [apple-notes-snapshot](https://github.com/xiaojiou176-open/apple-notes-snapshot) | Local-first Apple Notes backup control room for macOS |
-| [apple-notes-forensics](https://github.com/xiaojiou176-open/apple-notes-forensics) | Copy-first Apple Notes recovery toolkit with reviewable outputs |
-| [movi-organizer](https://github.com/xiaojiou176-open/movi-organizer) | Local-first AI-assisted media organizer with manifest-driven workflows |
+- [apple-notes-snapshot](https://github.com/xiaojiou176-open/apple-notes-snapshot)
+  Back up Apple Notes with visible health checks and structured exports.
+- [apple-notes-forensics](https://github.com/xiaojiou176-open/apple-notes-forensics)
+  Recover Apple Notes data with a copy-first, reviewable toolkit.
+- [movi-organizer](https://github.com/xiaojiou176-open/movi-organizer)
+  Organize media with manifest-driven workflows and reviewable automation.
 
-## Suggested paths
+## 🛠️ Technical shape
 
-- **For orchestration:** start with [CortexPilot-public](https://github.com/xiaojiou176-open/CortexPilot-public)
-- **For browser automation:** start with [ui-automation-control-plane](https://github.com/xiaojiou176-open/ui-automation-control-plane) and [prooftrail](https://github.com/xiaojiou176-open/prooftrail)
-- **For research workflows:** start with [sourceharbor](https://github.com/xiaojiou176-open/sourceharbor), [provenote](https://github.com/xiaojiou176-open/provenote), and [docsiphon](https://github.com/xiaojiou176-open/docsiphon)
-- **For AI product interfaces:** start with [openui-mcp-studio](https://github.com/xiaojiou176-open/openui-mcp-studio) and [multi-ai-sidepanel](https://github.com/xiaojiou176-open/multi-ai-sidepanel)
-- **For local-first utilities:** start with [apple-notes-snapshot](https://github.com/xiaojiou176-open/apple-notes-snapshot), [apple-notes-forensics](https://github.com/xiaojiou176-open/apple-notes-forensics), and [movi-organizer](https://github.com/xiaojiou176-open/movi-organizer)
+This org is not just a collection of prompt wrappers. The stronger repositories here repeatedly combine:
 
-## Design principles
+- Python / `FastAPI` control planes and orchestration backends
+- `Next.js`, React, and TypeScript product surfaces
+- `Playwright`-based browser execution and proof paths
+- `MCP` interfaces so the same systems can be used by both humans and agents
+- evidence bundles, manifests, diagnostics, and replay-oriented artifacts
+- hosted-first public CI with explicit boundaries for sensitive or live paths
+
+## 🧱 Design principles
 
 - Local-first when it improves trust, ownership, and recovery
 - Evidence-first when systems make claims about what happened
