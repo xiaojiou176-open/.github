@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/org-hero.svg" alt="xiaojiou176-open organization hero" width="100%">
+</p>
+
 <h1 align="center">xiaojiou176-open</h1>
 
 <p align="center"><strong>Open-source local-first AI tools for browser automation, traceable research, and operator workflows.</strong></p>
@@ -9,7 +13,14 @@
   <img alt="Hosted first public CI" src="https://img.shields.io/badge/public%20CI-hosted--first-7c3aed?style=for-the-badge">
 </p>
 
-This organization is the public showcase for systems that are meant to be understandable from the outside: products with visible state, inspectable evidence, practical operator surfaces, and a clear story about what they are trying to solve.
+<p align="center">
+  <a href="https://github.com/xiaojiou176"><strong>Builder profile</strong></a> •
+  <a href="#start-with-these-six"><strong>Start here</strong></a> •
+  <a href="#full-repo-atlas"><strong>Full atlas</strong></a> •
+  <a href="#design-principles"><strong>Design principles</strong></a>
+</p>
+
+This organization is the public showcase for systems that are meant to be understandable from the outside: products with visible state, inspectable evidence, practical operator surfaces, and a clear story about what they are trying to solve. It is a portfolio, not a dumping ground.
 
 Built by [Terry Yu](https://github.com/xiaojiou176).
 
@@ -17,26 +28,94 @@ Built by [Terry Yu](https://github.com/xiaojiou176).
 
 The repositories in this org are organized around five connected product lines:
 
-| Product line | What it is for | Representative repos |
-| --- | --- | --- |
-| AI orchestration and control planes | Governing AI and automation work with evidence, replay, and operator visibility | [CortexPilot-public](https://github.com/xiaojiou176-open/CortexPilot-public), [ui-automation-control-plane](https://github.com/xiaojiou176-open/ui-automation-control-plane) |
-| Auditable browser workflows | Turning browser flows into repeatable proof instead of black-box automation | [prooftrail](https://github.com/xiaojiou176-open/prooftrail), [ui-automation-control-plane](https://github.com/xiaojiou176-open/ui-automation-control-plane) |
-| Research and knowledge systems | Building search, writing, and knowledge workflows that preserve sources and auditability | [sourceharbor](https://github.com/xiaojiou176-open/sourceharbor), [provenote](https://github.com/xiaojiou176-open/provenote), [docsiphon](https://github.com/xiaojiou176-open/docsiphon) |
-| Product-facing AI tools | Bringing AI systems closer to real operator and end-user workflows | [openui-mcp-studio](https://github.com/xiaojiou176-open/openui-mcp-studio), [multi-ai-sidepanel](https://github.com/xiaojiou176-open/multi-ai-sidepanel), [campus-copilot](https://github.com/xiaojiou176-open/campus-copilot) |
-| Local-first utilities and recovery tools | Useful software with visible recovery paths, practical ownership, and clear user outcomes | [apple-notes-snapshot](https://github.com/xiaojiou176-open/apple-notes-snapshot), [apple-notes-forensics](https://github.com/xiaojiou176-open/apple-notes-forensics), [movi-organizer](https://github.com/xiaojiou176-open/movi-organizer), [dealwatch](https://github.com/xiaojiou176-open/dealwatch) |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>AI orchestration and control planes</strong><br>
+      Governing AI and automation work with evidence, replay, and operator visibility.<br><br>
+      <strong>Representative repos:</strong><br>
+      <a href="https://github.com/xiaojiou176-open/CortexPilot-public">CortexPilot-public</a><br>
+      <a href="https://github.com/xiaojiou176-open/ui-automation-control-plane">ui-automation-control-plane</a>
+    </td>
+    <td width="50%" valign="top">
+      <strong>Auditable browser workflows</strong><br>
+      Turning browser flows into repeatable proof instead of black-box automation.<br><br>
+      <strong>Representative repos:</strong><br>
+      <a href="https://github.com/xiaojiou176-open/prooftrail">prooftrail</a><br>
+      <a href="https://github.com/xiaojiou176-open/ui-automation-control-plane">ui-automation-control-plane</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>Research and knowledge systems</strong><br>
+      Building search, writing, and knowledge workflows that preserve sources and auditability.<br><br>
+      <strong>Representative repos:</strong><br>
+      <a href="https://github.com/xiaojiou176-open/sourceharbor">sourceharbor</a><br>
+      <a href="https://github.com/xiaojiou176-open/provenote">provenote</a><br>
+      <a href="https://github.com/xiaojiou176-open/docsiphon">docsiphon</a>
+    </td>
+    <td width="50%" valign="top">
+      <strong>Product-facing AI tools</strong><br>
+      Bringing AI systems closer to real operator and end-user workflows.<br><br>
+      <strong>Representative repos:</strong><br>
+      <a href="https://github.com/xiaojiou176-open/openui-mcp-studio">openui-mcp-studio</a><br>
+      <a href="https://github.com/xiaojiou176-open/multi-ai-sidepanel">multi-ai-sidepanel</a><br>
+      <a href="https://github.com/xiaojiou176-open/campus-copilot">campus-copilot</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>Local-first utilities and recovery tools</strong><br>
+      Useful software with visible recovery paths, practical ownership, and clear user outcomes.<br><br>
+      <strong>Representative repos:</strong><br>
+      <a href="https://github.com/xiaojiou176-open/apple-notes-snapshot">apple-notes-snapshot</a><br>
+      <a href="https://github.com/xiaojiou176-open/apple-notes-forensics">apple-notes-forensics</a><br>
+      <a href="https://github.com/xiaojiou176-open/movi-organizer">movi-organizer</a><br>
+      <a href="https://github.com/xiaojiou176-open/dealwatch">dealwatch</a>
+    </td>
+    <td width="50%" valign="top">
+      <strong>Public collaboration baseline</strong><br>
+      Public CI is hosted-first, sensitive lanes are explicitly gated, and operator state is visible instead of buried in personal infrastructure.<br><br>
+      <strong>Why it matters:</strong><br>
+      This org is meant to feel like a curated public product line, not a hidden lab notebook.
+    </td>
+  </tr>
+</table>
 
 ## Start with these six
 
 If this is your first visit, start with one of these:
 
-| Repo | Why start here |
-| --- | --- |
-| [CortexPilot-public](https://github.com/xiaojiou176-open/CortexPilot-public) | The clearest entry point into my orchestration and governance direction |
-| [ui-automation-control-plane](https://github.com/xiaojiou176-open/ui-automation-control-plane) | The control-plane view of browser automation, proof, and quality gates |
-| [provenote](https://github.com/xiaojiou176-open/provenote) | Traceable writing and research output built around searchable sources and auditable markdown |
-| [prooftrail](https://github.com/xiaojiou176-open/prooftrail) | Inspectable browser automation built for repeatability and recovery |
-| [sourceharbor](https://github.com/xiaojiou176-open/sourceharbor) | A knowledge pipeline for turning noisy source streams into usable operator context |
-| [openui-mcp-studio](https://github.com/xiaojiou176-open/openui-mcp-studio) | AI-assisted UI generation with verification and production-minded workflow guardrails |
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <strong><a href="https://github.com/xiaojiou176-open/CortexPilot-public">CortexPilot-public</a></strong><br>
+      The clearest entry point into orchestration, governance, and operator visibility.
+    </td>
+    <td width="33%" valign="top">
+      <strong><a href="https://github.com/xiaojiou176-open/ui-automation-control-plane">ui-automation-control-plane</a></strong><br>
+      The control-plane view of browser automation, proof, and quality gates.
+    </td>
+    <td width="33%" valign="top">
+      <strong><a href="https://github.com/xiaojiou176-open/provenote">provenote</a></strong><br>
+      Source-grounded writing and research workflows with auditable outputs.
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <strong><a href="https://github.com/xiaojiou176-open/prooftrail">prooftrail</a></strong><br>
+      Inspectable browser automation built for repeatability and recovery.
+    </td>
+    <td width="33%" valign="top">
+      <strong><a href="https://github.com/xiaojiou176-open/sourceharbor">sourceharbor</a></strong><br>
+      A knowledge pipeline for turning noisy source streams into operator context.
+    </td>
+    <td width="33%" valign="top">
+      <strong><a href="https://github.com/xiaojiou176-open/openui-mcp-studio">openui-mcp-studio</a></strong><br>
+      AI-assisted UI generation with verification and production-minded workflow guardrails.
+    </td>
+  </tr>
+</table>
 
 ## Full repo atlas
 
@@ -62,7 +141,7 @@ All **13 public repositories**, with no hiding:
 | Repo | What it does |
 | --- | --- |
 | [sourceharbor](https://github.com/xiaojiou176-open/sourceharbor) | Turn YouTube, Bilibili, and RSS into searchable digests and traceable knowledge flows |
-| [provenote](https://github.com/xiaojiou176-open/provenote) | Traceable writing, searchable sources, auditable markdown, and podcast-ready outputs |
+| [provenote](https://github.com/xiaojiou176-open/provenote) | Source-grounded writing, searchable sources, auditable markdown, and traceable outputs |
 | [docsiphon](https://github.com/xiaojiou176-open/docsiphon) | Convert docsites into AI-ready local corpora with preserved paths and audit artifacts |
 
 ### 4. Product-facing AI tools
@@ -95,3 +174,11 @@ All **13 public repositories**, with no hiding:
 - Operator-visible instead of demo-only
 - Hosted-first public CI with explicit gates for sensitive lanes
 - Real workflows over decorative prototypes
+
+## Suggested tours
+
+- **If you want the flagship systems first:** start with [CortexPilot-public](https://github.com/xiaojiou176-open/CortexPilot-public) and [ui-automation-control-plane](https://github.com/xiaojiou176-open/ui-automation-control-plane)
+- **If you care about proof, repeatability, and browser evidence:** start with [prooftrail](https://github.com/xiaojiou176-open/prooftrail)
+- **If you care about source-grounded research:** start with [sourceharbor](https://github.com/xiaojiou176-open/sourceharbor), [provenote](https://github.com/xiaojiou176-open/provenote), and [docsiphon](https://github.com/xiaojiou176-open/docsiphon)
+- **If you want product-facing AI UX:** start with [openui-mcp-studio](https://github.com/xiaojiou176-open/openui-mcp-studio), [multi-ai-sidepanel](https://github.com/xiaojiou176-open/multi-ai-sidepanel), and [campus-copilot](https://github.com/xiaojiou176-open/campus-copilot)
+- **If you want local-first recovery and utility tools:** start with [apple-notes-snapshot](https://github.com/xiaojiou176-open/apple-notes-snapshot), [apple-notes-forensics](https://github.com/xiaojiou176-open/apple-notes-forensics), [movi-organizer](https://github.com/xiaojiou176-open/movi-organizer), and [dealwatch](https://github.com/xiaojiou176-open/dealwatch)
