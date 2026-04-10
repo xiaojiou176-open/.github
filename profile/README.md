@@ -1,158 +1,169 @@
 <p align="center">
-  <img src="./assets/org-hero-v3.svg" alt="xiaojiou176-open organization hero" width="100%">
+  <img src="./assets/org-hero-v5.svg" alt="xiaojiou176-open showroom hero" width="100%">
 </p>
 
 <h1 align="center">xiaojiou176-open</h1>
 
-<p align="center"><strong>A public showroom for readable, reviewable, evidence-backed AI products.</strong><br>Start with three flagship doors, then explore the full atlas across seven product halls.</p>
-
-<p align="center">
-  <img alt="Public products" src="https://img.shields.io/badge/public%20products-16-111827?style=for-the-badge">
-  <img alt="Product halls" src="https://img.shields.io/badge/product%20halls-7-0f766e?style=for-the-badge">
-  <img alt="Full atlas visible" src="https://img.shields.io/badge/full%20atlas-visible-1d4ed8?style=for-the-badge">
-  <img alt="Hosted first public CI" src="https://img.shields.io/badge/public%20CI-hosted--first-7c3aed?style=for-the-badge">
-</p>
+<p align="center"><strong>A public showroom for readable, reviewable, evidence-backed AI products.</strong><br>Start with three flagship doors, then explore seven product halls and the full atlas.</p>
 
 <p align="center">
   <a href="https://github.com/xiaojiou176"><strong>Builder profile</strong></a> •
-  <a href="#start-with-the-front-row"><strong>Start with the front row</strong></a> •
-  <a href="#why-this-showroom-is-worth-your-time"><strong>Why this showroom matters</strong></a> •
-  <a href="#the-full-atlas"><strong>The full atlas</strong></a>
+  <a href="#2--start-with-the-three-flagship-doors"><strong>Start with the front row</strong></a> •
+  <a href="#3--choose-a-route-by-goal"><strong>Choose a route</strong></a> •
+  <a href="#4--walk-the-seven-product-halls"><strong>The seven halls</strong></a>
 </p>
 
-This organization is the public showroom for Terry Yu's open product universe. It is built for first-time visitors who want to understand what the products are, what user problems they solve, and where to start without digging through a repo wall.
+> **Why this page exists**  
+> This showroom is here to stop first-time visitors from hitting a repo wall. Start with the three flagship doors, then walk the product halls by goal.
 
-Built by [Terry Yu](https://github.com/xiaojiou176).
+| **3 flagship doors** | **7 product halls** | **Task-led routes** | **Full atlas visible** |
+| --- | --- | --- | --- |
+| the core story first | the system after the hook | navigate by problem, not title | the universe stays visible |
 
-## Why this showroom is worth your time
+## 1. ✨ Why This Showroom Matters
 
-This page is not trying to impress you with the number of repositories. It is trying to reduce three kinds of confusion:
+1. **It gives you the story before the repo wall.**  
+   You should be able to understand what this builder is making before you are asked to parse a grid of repositories.
 
-- **What does this builder actually make?** Not generic AI wrappers, but products that turn messy inputs and black-box workflows into readable, reviewable, evidence-backed work.
-- **Why these repos instead of another AI GitHub page?** Because the work repeatedly combines user-facing product sense, operator-grade system depth, runtime foundations, and visible proof or recovery paths.
-- **How do I know where to start?** The page is intentionally staged: front row first, flagship reserve second, full atlas third.
+2. **It separates the universe from the individual products.**  
+   The page first shows the three strongest doors into the portfolio, then explains the halls behind them, then lets you walk the full atlas.
 
-## Start with the front row
+3. **It lets you navigate by goal instead of guessing from names.**  
+   If you care about reading products, decision workspaces, runtime foundations, or browser-native product lines, you should know exactly where to start.
 
-These are three parallel doors into the portfolio. They keep the W0 narrative order, but they are meant to be entered side by side, not read as a prize ranking.
+## 2. 🚪 Start With the Three Flagship Doors
+
+These are parallel doors into the portfolio. They keep the canonical order, but they are meant to be entered side by side, not read like a prize ranking.
 
 <table>
   <tr>
     <td width="33%" valign="top">
       <strong><a href="https://github.com/xiaojiou176-open/sourceharbor">SourceHarbor</a></strong><br>
       <strong>Read</strong><br><br>
-      <strong>The problem:</strong><br>
-      People can subscribe to more and more sources, but still end up with feeds, summaries, and object lists that never become something truly readable.<br><br>
-      <strong>Why start here:</strong><br>
-      This is the clearest entry to Terry's "read the world" thesis: turn raw source streams into traceable reading products a human would actually keep.
+      <strong>The need</strong><br>
+      People can subscribe to more and more sources, but still never end up with something truly readable.<br><br>
+      <strong>The breakout</strong><br>
+      A reader-first product that turns raw source streams into traceable reading outputs worth keeping.<br><br>
+      <strong>Why start here</strong><br>
+      This is the clearest doorway into Terry's "read the world" thesis.
     </td>
     <td width="33%" valign="top">
       <strong><a href="https://github.com/xiaojiou176-open/campus-copilot">campus-copilot</a></strong><br>
       <strong>Decide</strong><br><br>
-      <strong>The problem:</strong><br>
-      In real academic systems, information is scattered across high-constraint surfaces. Knowing where the data is does not tell a student what to do next.<br><br>
-      <strong>Why start here:</strong><br>
-      This is the clearest proof that the portfolio can enter a real, sensitive domain without bluffing the boundaries.
+      <strong>The need</strong><br>
+      In real academic systems, information is scattered across high-constraint surfaces, and a user still has to guess the next move.<br><br>
+      <strong>The breakout</strong><br>
+      A local-first decision workspace that helps users choose well without pretending the system can safely do more than it should.<br><br>
+      <strong>Why start here</strong><br>
+      This is the fastest proof that the universe can enter real, sensitive domains without bluffing the boundary.
     </td>
     <td width="33%" valign="top">
       <strong><a href="https://github.com/xiaojiou176-open/CortexPilot-public">CortexPilot-public</a></strong><br>
       <strong>Orchestrate</strong><br><br>
-      <strong>The problem:</strong><br>
-      Many AI workflows can run, but cannot be trusted, because request, execution, proof, and replay are split apart.<br><br>
-      <strong>Why start here:</strong><br>
-      This is the fastest way to see the operator-grade control-plane layer that sits underneath the product universe.
+      <strong>The need</strong><br>
+      Workflows often run without trust, because request, execution, proof, and replay are split apart.<br><br>
+      <strong>The breakout</strong><br>
+      A governed control plane that keeps execution, proof, and replay in one system instead of scattering them across tools.<br><br>
+      <strong>Why start here</strong><br>
+      This is the clearest proof that the portfolio is building operator-grade systems, not just surfaces.
     </td>
   </tr>
 </table>
 
-## Why these three first
+## 3. 🧭 Choose a Route by Goal
 
-These doors are first not because they are the only strong repos, but because they are the fastest way to understand the three core promises of the universe:
+1. **Understand how Terry turns messy inputs into readable products.**  
+   Start with [SourceHarbor](https://github.com/xiaojiou176-open/sourceharbor), then go deeper through the reading hall.
 
-- **SourceHarbor** shows how Terry turns information overload into something readable.
-- **campus-copilot** shows how Terry places AI inside real, high-constraint decision work.
-- **CortexPilot-public** shows how Terry builds governed workflow and orchestration systems, not just thin product surfaces.
+2. **See real-world decision systems with clear boundaries.**  
+   Start with [campus-copilot](https://github.com/xiaojiou176-open/campus-copilot), then explore the decision hall.
 
-The rest of the showroom either deepens one of those promises or reveals the system foundations underneath them.
+3. **Inspect operator workflows and governed execution.**  
+   Start with [CortexPilot-public](https://github.com/xiaojiou176-open/CortexPilot-public), then continue into control and workflow systems.
 
-## Choose your route
+4. **Explore runtime, proof, and system foundations.**  
+   Jump to [Switchyard](https://github.com/xiaojiou176-open/Switchyard), [prooftrail](https://github.com/xiaojiou176-open/prooftrail), and [ui-automation-control-plane](https://github.com/xiaojiou176-open/ui-automation-control-plane).
 
-- [Understand how Terry turns messy inputs into readable products](#reading-and-knowledge-products)
-- [See real-world decision systems with clear boundaries](#real-world-decision-workspaces)
-- [Inspect operator workflows and governed execution](#control-and-workflow-systems)
-- [Explore runtime, proof, and system foundations](#runtime-and-proof-foundations)
-- [Browse browser-native product lines](#browser-product-families)
+5. **Browse browser-native product lines.**  
+   Open [Shopflow](https://github.com/xiaojiou176-open/shopflow-suite) once you want to see the consumer-facing side of the universe.
 
-## Flagship reserve
+## 4. 🏛️ Walk the Seven Product Halls
 
-These are not hidden. They are the highest-weight supporting doors around the front row.
+### 1. Reading and Knowledge Products
+_Internal canon: Reader And Knowledge Rewriting_
 
-- [docsiphon](https://github.com/xiaojiou176-open/docsiphon) — if the problem is "documentation exists but is still hard to turn into reusable local AI knowledge," this is the corpus-building tool to inspect.
-- [Shopflow](https://github.com/xiaojiou176-open/shopflow-suite) — if the question is whether Terry can build consumer-visible browser product lines instead of only deep system tools, start here.
-- [Switchyard](https://github.com/xiaojiou176-open/Switchyard) — if you want proof that the surface products sit on real runtime and access foundations, inspect this kernel.
-- [agent-exporter](https://github.com/xiaojiou176-open/agent-exporter) — if you want to see governance, archive discipline, and evidence design applied to AI transcript work itself, start here.
+When the problem is **“I have too much source material and not enough clarity,”** start here.
 
-## The full atlas
-
-This page intentionally keeps the full atlas visible. The front row is the entry, not the whole story.
-
-### Reading and Knowledge Products
-
-Go here if the question is: **How does Terry turn noisy sources into something a person can actually read and reuse?**
-
-- [SourceHarbor](https://github.com/xiaojiou176-open/sourceharbor) — reader-first, no-loss, traceable reading products built from raw source streams.
+- [SourceHarbor](https://github.com/xiaojiou176-open/sourceharbor) — reader-first, no-loss reading products built from raw source streams.
 - [docsiphon](https://github.com/xiaojiou176-open/docsiphon) — docsites turned into local, rerunnable, AI-ready corpora.
 
-### Real-World Decision Workspaces
+### 2. Real-World Decision Workspaces
+_Internal canon: Academic Decision Workspace_
 
-Go here if the question is: **How does Terry help a user decide under real constraints instead of just exposing more data?**
+When the problem is **“I know where the information is, but I still do not know what to do next,”** start here.
 
 - [campus-copilot](https://github.com/xiaojiou176-open/campus-copilot) — a local-first academic decision workspace with explicit boundaries.
-- [dealwatch](https://github.com/xiaojiou176-open/dealwatch) — compare-first shopping decisions across messy storefront surfaces.
+- [dealwatch](https://github.com/xiaojiou176-open/dealwatch) — compare-first buying decisions across messy storefront surfaces.
 
-### Control and Workflow Systems
+### 3. Control and Workflow Systems
+_Internal canon: Decision And Control Towers_
 
-Go here if the question is: **How does Terry make AI workflows inspectable, governed, and replayable instead of black-box?**
+When the problem is **“the workflow can run, but it still cannot be trusted,”** start here.
 
 - [CortexPilot-public](https://github.com/xiaojiou176-open/CortexPilot-public) — the governed control plane for requests, execution, proof, and replay.
 
-### AI Workbenches
+### 4. AI Workbenches
+_Internal canon: Agent Workbenches_
 
-Go here if the question is: **How does Terry turn AI work from chatting into structured, reviewable workspaces?**
+When the problem is **“AI chat is not enough; I need a structured workspace,”** start here.
 
-- [multi-ai-sidepanel](https://github.com/xiaojiou176-open/multi-ai-sidepanel) — a browser-first compare workspace for multiple AI models.
-- [provenote](https://github.com/xiaojiou176-open/provenote) — an outcome-first research workbench for reviewable long-context results.
-- [openui-mcp-studio](https://github.com/xiaojiou176-open/openui-mcp-studio) — a review-first UI delivery workbench from brief to production-ready workspace change.
-- [agent-exporter](https://github.com/xiaojiou176-open/agent-exporter) — a local-first archive and governance workbench for AI transcripts.
+- [multi-ai-sidepanel](https://github.com/xiaojiou176-open/multi-ai-sidepanel) — one prompt, many models, one browser workspace.
+- [provenote](https://github.com/xiaojiou176-open/provenote) — long context compressed into reviewable research outcomes.
+- [openui-mcp-studio](https://github.com/xiaojiou176-open/openui-mcp-studio) — UI delivery from brief to production-ready workspace change.
+- [agent-exporter](https://github.com/xiaojiou176-open/agent-exporter) — transcript export turned into archive, evidence, and governance workbench.
 
-### Local Trust Labs
+### 5. Local Trust Labs
+_Internal canon: Local Artifact Labs_
 
-Go here if the question is: **How does Terry build software that gives users visible recovery paths instead of one-shot automation?**
+When the problem is **“this action is risky, and I need review, rollback, or recovery before I trust it,”** start here.
 
 - [apple-notes-snapshot](https://github.com/xiaojiou176-open/apple-notes-snapshot) — visible health checks and structured exports for Apple Notes backup.
 - [apple-notes-forensics](https://github.com/xiaojiou176-open/apple-notes-forensics) — copy-first, reviewable recovery tooling for Apple Notes.
 - [movi-organizer](https://github.com/xiaojiou176-open/movi-organizer) — review-first file organization with deterministic apply and rollback.
 
-### Runtime and Proof Foundations
+### 6. Runtime and Proof Foundations
+_Internal canon: Runtime And Evidence Substrate_
 
-Go here if the question is: **What system foundations make the rest of the universe feel trustworthy instead of fragile?**
+When the problem is **“the product looks good, but what system makes it trustworthy underneath?”** start here.
 
 - [Switchyard](https://github.com/xiaojiou176-open/Switchyard) — the shared runtime kernel for provider access and reusable AI foundations.
 - [prooftrail](https://github.com/xiaojiou176-open/prooftrail) — evidence-first browser automation substrate with recovery and repair built in.
 - [ui-automation-control-plane](https://github.com/xiaojiou176-open/ui-automation-control-plane) — an AI-native WebUI stress lab for proof, review, and workflow experimentation.
 
-### Browser Product Families
+### 7. Browser Product Families
+_Internal canon: Browser Commerce Family_
 
-Go here if the question is: **Can Terry turn all this system depth into browser-native products normal users can actually feel?**
+When the question is **“can all this system depth become something a normal user can actually feel?”** start here.
 
 - [Shopflow](https://github.com/xiaojiou176-open/shopflow-suite) — the browser-native shopping product family spanning storefront workflows.
 
-## Shared design instincts
+### 8. Full Atlas
+_Internal canon: Full Atlas Layer_
 
-Across the org, the same product instincts keep showing up:
+This is not a separate product family. It is the promise that the whole universe stays visible instead of collapsing into a three-repo highlight reel.
 
-- local-first when trust, recovery, and ownership matter
-- reviewable outputs instead of black-box demos
-- evidence when systems make claims about what happened
-- clear boundaries over vague magic
-- products that can be run, inspected, and explained by another human
+## 5. ⭐ Flagship Reserve
+
+These are the highest-weight supporting doors around the front row.
+
+- [docsiphon](https://github.com/xiaojiou176-open/docsiphon) — the fastest extra doorway if you want CLI/corpus engineering.
+- [Shopflow](https://github.com/xiaojiou176-open/shopflow-suite) — the clearest proof of a consumer-facing browser product family.
+- [Switchyard](https://github.com/xiaojiou176-open/Switchyard) — the runtime/access foundation under the visible products.
+- [agent-exporter](https://github.com/xiaojiou176-open/agent-exporter) — the clearest governance and archive-discipline workbench in the universe.
+
+## 6. 🔍 Why This Is Not a Repo Wall
+
+- **Because the front row is an entry, not the whole story.**
+- **Because the seven halls explain what kinds of product problems this universe attacks.**
+- **Because the full atlas stays visible instead of hiding the deeper system layers.**
+- **Because the page is organized around visitor goals, not around random repository names.**
