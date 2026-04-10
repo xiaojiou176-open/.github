@@ -4,195 +4,113 @@
 
 <h1 align="center">xiaojiou176-open</h1>
 
-<p align="center"><strong>Open-source AI tools for browser workflows, source-grounded research, and practical operator software.</strong></p>
+<p align="center"><strong>A public showroom for readable, reviewable, evidence-backed AI products.</strong><br>Start with three flagship doors, then explore the full atlas across seven product halls.</p>
 
 <p align="center">
-  <img alt="13 public repos" src="https://img.shields.io/badge/public%20repos-13-111827?style=for-the-badge">
-  <img alt="5 product lines" src="https://img.shields.io/badge/product%20lines-5-0f766e?style=for-the-badge">
-  <img alt="Operator visible" src="https://img.shields.io/badge/operator-visible-1d4ed8?style=for-the-badge">
+  <img alt="Public products" src="https://img.shields.io/badge/public%20products-16-111827?style=for-the-badge">
+  <img alt="Product halls" src="https://img.shields.io/badge/product%20halls-7-0f766e?style=for-the-badge">
+  <img alt="Full atlas visible" src="https://img.shields.io/badge/full%20atlas-visible-1d4ed8?style=for-the-badge">
   <img alt="Hosted first public CI" src="https://img.shields.io/badge/public%20CI-hosted--first-7c3aed?style=for-the-badge">
 </p>
 
 <p align="center">
   <a href="https://github.com/xiaojiou176"><strong>Builder profile</strong></a> •
-  <a href="#start-with-these-six"><strong>Start here</strong></a> •
-  <a href="#-full-repo-atlas"><strong>Full atlas</strong></a> •
-  <a href="#-technical-shape"><strong>Technical shape</strong></a>
+  <a href="#start-with-the-front-row"><strong>Start with the front row</strong></a> •
+  <a href="#the-full-atlas"><strong>The full atlas</strong></a>
 </p>
 
-This organization is the public showcase for software that should make sense from the outside. The goal is simple: when someone lands here, they should be able to tell what each repo helps a user do, where to start, and why the product is worth a closer look. It is a portfolio, not a dumping ground.
+This organization is the public showroom for Terry Yu's open product universe. It is designed to help a first-time visitor understand what exists, where to start, and how the pieces connect, without turning the page into a repo list wall.
 
 Built by [Terry Yu](https://github.com/xiaojiou176).
 
-## 🎯 What lives here
+## Start with the front row
 
-The repositories in this org are organized around five connected product lines:
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <strong>AI orchestration and control planes</strong><br>
-      Software for running work, supervising execution, and reviewing what happened after the run.<br><br>
-      <strong>Representative repos:</strong><br>
-      <a href="https://github.com/xiaojiou176-open/CortexPilot-public">CortexPilot-public</a><br>
-      <a href="https://github.com/xiaojiou176-open/ui-automation-control-plane">ui-automation-control-plane</a>
-    </td>
-    <td width="50%" valign="top">
-      <strong>Auditable browser workflows</strong><br>
-      Turning browser flows into repeatable proof instead of black-box automation.<br><br>
-      <strong>Representative repos:</strong><br>
-      <a href="https://github.com/xiaojiou176-open/prooftrail">prooftrail</a><br>
-      <a href="https://github.com/xiaojiou176-open/ui-automation-control-plane">ui-automation-control-plane</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <strong>Research and knowledge systems</strong><br>
-      Tools for turning raw sources into reusable notes, searchable corpora, and inspectable outputs.<br><br>
-      <strong>Representative repos:</strong><br>
-      <a href="https://github.com/xiaojiou176-open/sourceharbor">sourceharbor</a><br>
-      <a href="https://github.com/xiaojiou176-open/provenote">provenote</a><br>
-      <a href="https://github.com/xiaojiou176-open/docsiphon">docsiphon</a>
-    </td>
-    <td width="50%" valign="top">
-      <strong>Product-facing AI tools</strong><br>
-      User-facing AI products that do a concrete job instead of stopping at a cool demo.<br><br>
-      <strong>Representative repos:</strong><br>
-      <a href="https://github.com/xiaojiou176-open/openui-mcp-studio">openui-mcp-studio</a><br>
-      <a href="https://github.com/xiaojiou176-open/multi-ai-sidepanel">multi-ai-sidepanel</a><br>
-      <a href="https://github.com/xiaojiou176-open/campus-copilot">campus-copilot</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <strong>Local-first utilities and recovery tools</strong><br>
-      Useful software with visible recovery paths, practical ownership, and clear user outcomes.<br><br>
-      <strong>Representative repos:</strong><br>
-      <a href="https://github.com/xiaojiou176-open/apple-notes-snapshot">apple-notes-snapshot</a><br>
-      <a href="https://github.com/xiaojiou176-open/apple-notes-forensics">apple-notes-forensics</a><br>
-      <a href="https://github.com/xiaojiou176-open/movi-organizer">movi-organizer</a><br>
-      <a href="https://github.com/xiaojiou176-open/dealwatch">dealwatch</a>
-    </td>
-    <td width="50%" valign="top">
-      <strong>Public collaboration baseline</strong><br>
-      Public CI is hosted-first, sensitive lanes are explicitly gated, and operator state is visible instead of buried in personal infrastructure.<br><br>
-      <strong>Why it matters:</strong><br>
-      This org is meant to feel like a curated public product line, not a hidden lab notebook.
-    </td>
-  </tr>
-</table>
-
-## 🚀 Start with these six
-
-If this is your first visit, these six repos are the fastest way to understand the shape of the portfolio:
+These are three parallel doors into the portfolio. They keep the W0 narrative order, but they are meant to be entered side by side, not read as a prize ranking.
 
 <table>
   <tr>
+    <td width="33%" valign="top">
+      <strong><a href="https://github.com/xiaojiou176-open/sourceharbor">SourceHarbor</a></strong><br>
+      <strong>Read</strong><br>
+      See how messy source streams become readable, traceable products.
+    </td>
+    <td width="33%" valign="top">
+      <strong><a href="https://github.com/xiaojiou176-open/campus-copilot">campus-copilot</a></strong><br>
+      <strong>Decide</strong><br>
+      See real-world decision systems built with clear boundaries and local-first trust.
+    </td>
     <td width="33%" valign="top">
       <strong><a href="https://github.com/xiaojiou176-open/CortexPilot-public">CortexPilot-public</a></strong><br>
-      Run governed AI tasks, inspect evidence bundles, and replay failures without guesswork.
-    </td>
-    <td width="33%" valign="top">
-      <strong><a href="https://github.com/xiaojiou176-open/ui-automation-control-plane">ui-automation-control-plane</a></strong><br>
-      Run browser workflows, review proof, and decide whether a result is ready to ship.
-    </td>
-    <td width="33%" valign="top">
-      <strong><a href="https://github.com/xiaojiou176-open/provenote">provenote</a></strong><br>
-      Import one source, search it, and export auditable markdown you can inspect later.
-    </td>
-  </tr>
-  <tr>
-    <td width="33%" valign="top">
-      <strong><a href="https://github.com/xiaojiou176-open/prooftrail">prooftrail</a></strong><br>
-      Run one workflow, inspect one evidence bundle, and recover with facts instead of guesswork.
-    </td>
-    <td width="33%" valign="top">
-      <strong><a href="https://github.com/xiaojiou176-open/sourceharbor">sourceharbor</a></strong><br>
-      Subscribe to source streams and turn them into digests, job traces, and searchable artifacts.
-    </td>
-    <td width="33%" valign="top">
-      <strong><a href="https://github.com/xiaojiou176-open/openui-mcp-studio">openui-mcp-studio</a></strong><br>
-      Turn UI briefs into React and shadcn files you can preview and verify.
+      <strong>Orchestrate</strong><br>
+      See operator workflows, governed execution, and replayable evidence.
     </td>
   </tr>
 </table>
 
-## 👀 What to expect from repos here
+## Choose your route
 
-Across this org, the public repos should make three things easy to find:
+- [Understand how Terry turns messy inputs into readable products](#reading-and-knowledge-products)
+- [See real-world decision systems with clear boundaries](#real-world-decision-workspaces)
+- [Inspect operator workflows and governed execution](#control-and-workflow-systems)
+- [Explore runtime, proof, and system foundations](#runtime-and-proof-foundations)
+- [Browse browser-native product lines](#browser-product-families)
 
-- the fastest honest first result
-- the docs page that gets a new visitor moving
-- the boundary between what is already public-proof and what still needs local setup or maintainer-only steps
+## Flagship reserve
 
-## 🗺️ Full repo atlas
+These are not hidden. They are the highest-weight supporting doors around the front row.
 
-All **13 public repositories**, with no hiding:
+- [docsiphon](https://github.com/xiaojiou176-open/docsiphon) — CLI-first docs-to-corpus tooling for reusable local AI knowledge.
+- [Shopflow](https://github.com/xiaojiou176-open/shopflow-suite) — the browser-native commerce product family in the universe.
+- [Switchyard](https://github.com/xiaojiou176-open/Switchyard) — the runtime kernel and access foundation under multiple systems.
+- [agent-exporter](https://github.com/xiaojiou176-open/agent-exporter) — the governance and archive workbench for AI transcript evidence.
 
-### 🧠 AI orchestration and control planes
+## The full atlas
 
-- [CortexPilot-public](https://github.com/xiaojiou176-open/CortexPilot-public)
-  Governed AI task orchestration for running work, reviewing evidence, and replaying failures without guesswork.
-- [ui-automation-control-plane](https://github.com/xiaojiou176-open/ui-automation-control-plane)
-  Browser automation control plane for running flows, reviewing proof, and shipping with governed quality gates.
+This page intentionally keeps the full atlas visible. The three front-row doors are the start, not the whole story.
 
-### 🧪 Auditable browser workflows
+### Reading and Knowledge Products
 
-- [prooftrail](https://github.com/xiaojiou176-open/prooftrail)
-  Run workflows through one canonical path and inspect the evidence bundle afterward.
-- [multi-ai-sidepanel](https://github.com/xiaojiou176-open/multi-ai-sidepanel)
-  Compare major AI tools side by side in one browser extension.
-- [campus-copilot](https://github.com/xiaojiou176-open/campus-copilot)
-  Organize academic workflows from multiple platforms in one local-first product.
+- [SourceHarbor](https://github.com/xiaojiou176-open/sourceharbor) — reader-first, no-loss, traceable reading products built from raw source streams.
+- [docsiphon](https://github.com/xiaojiou176-open/docsiphon) — docsites turned into local, rerunnable, AI-ready corpora.
 
-### 📚 Research and knowledge systems
+### Real-World Decision Workspaces
 
-- [sourceharbor](https://github.com/xiaojiou176-open/sourceharbor)
-  Pull source streams into digests, job traces, and searchable artifacts.
-- [provenote](https://github.com/xiaojiou176-open/provenote)
-  Import one source, search it, and export auditable markdown you can inspect later.
-- [docsiphon](https://github.com/xiaojiou176-open/docsiphon)
-  Convert docsites into local corpora that agents and operators can actually reuse.
+- [campus-copilot](https://github.com/xiaojiou176-open/campus-copilot) — a local-first academic decision workspace with explicit boundaries.
+- [dealwatch](https://github.com/xiaojiou176-open/dealwatch) — compare-first shopping decisions across messy storefront surfaces.
 
-### 🎨 Product-facing AI tools
+### Control and Workflow Systems
 
-- [openui-mcp-studio](https://github.com/xiaojiou176-open/openui-mcp-studio)
-  Turn UI briefs into React and shadcn files you can preview and verify.
-- [dealwatch](https://github.com/xiaojiou176-open/dealwatch)
-  Track grocery prices across stores with compare views, watch tasks, and alert history.
+- [CortexPilot-public](https://github.com/xiaojiou176-open/CortexPilot-public) — the governed control plane for requests, execution, proof, and replay.
 
-### 🧰 Local-first utilities and recovery tools
+### AI Workbenches
 
-- [apple-notes-snapshot](https://github.com/xiaojiou176-open/apple-notes-snapshot)
-  Back up Apple Notes with visible health checks and structured exports.
-- [apple-notes-forensics](https://github.com/xiaojiou176-open/apple-notes-forensics)
-  Recover Apple Notes data with a copy-first, reviewable toolkit.
-- [movi-organizer](https://github.com/xiaojiou176-open/movi-organizer)
-  Organize media with manifest-driven workflows and reviewable automation.
+- [multi-ai-sidepanel](https://github.com/xiaojiou176-open/multi-ai-sidepanel) — a browser-first compare workspace for multiple AI models.
+- [provenote](https://github.com/xiaojiou176-open/provenote) — an outcome-first research workbench for reviewable long-context results.
+- [openui-mcp-studio](https://github.com/xiaojiou176-open/openui-mcp-studio) — a review-first UI delivery workbench from brief to production-ready workspace change.
+- [agent-exporter](https://github.com/xiaojiou176-open/agent-exporter) — a local-first archive and governance workbench for AI transcripts.
 
-## 🛠️ Technical shape
+### Local Trust Labs
 
-This org is not just a collection of prompt wrappers. The stronger repositories here repeatedly combine:
+- [apple-notes-snapshot](https://github.com/xiaojiou176-open/apple-notes-snapshot) — visible health checks and structured exports for Apple Notes backup.
+- [apple-notes-forensics](https://github.com/xiaojiou176-open/apple-notes-forensics) — copy-first, reviewable recovery tooling for Apple Notes.
+- [movi-organizer](https://github.com/xiaojiou176-open/movi-organizer) — review-first file organization with deterministic apply and rollback.
 
-- Python / `FastAPI` control planes and orchestration backends
-- `Next.js`, React, and TypeScript product surfaces
-- `Playwright`-based browser execution and proof paths
-- `MCP` interfaces so the same systems can be used by both humans and agents
-- evidence bundles, manifests, diagnostics, and replay-oriented artifacts
-- hosted-first public CI with explicit boundaries for sensitive or live paths
+### Runtime and Proof Foundations
 
-## 🧱 Design principles
+- [Switchyard](https://github.com/xiaojiou176-open/Switchyard) — the shared runtime kernel for provider access and reusable AI foundations.
+- [prooftrail](https://github.com/xiaojiou176-open/prooftrail) — evidence-first browser automation substrate with recovery and repair built in.
+- [ui-automation-control-plane](https://github.com/xiaojiou176-open/ui-automation-control-plane) — an AI-native WebUI stress lab for proof, review, and workflow experimentation.
 
-- Local-first when it improves trust, ownership, and recovery
-- Evidence-first when systems make claims about what happened
-- Operator-visible instead of demo-only
-- Hosted-first public CI with explicit gates for sensitive lanes
-- Real workflows over decorative prototypes
+### Browser Product Families
 
-## Suggested tours
+- [Shopflow](https://github.com/xiaojiou176-open/shopflow-suite) — the browser-native shopping product family spanning storefront workflows.
 
-- **If you want the flagship systems first:** start with [CortexPilot-public](https://github.com/xiaojiou176-open/CortexPilot-public) and [ui-automation-control-plane](https://github.com/xiaojiou176-open/ui-automation-control-plane)
-- **If you care about proof, repeatability, and browser evidence:** start with [prooftrail](https://github.com/xiaojiou176-open/prooftrail)
-- **If you care about source-grounded research:** start with [sourceharbor](https://github.com/xiaojiou176-open/sourceharbor), [provenote](https://github.com/xiaojiou176-open/provenote), and [docsiphon](https://github.com/xiaojiou176-open/docsiphon)
-- **If you want product-facing AI UX:** start with [openui-mcp-studio](https://github.com/xiaojiou176-open/openui-mcp-studio), [multi-ai-sidepanel](https://github.com/xiaojiou176-open/multi-ai-sidepanel), and [campus-copilot](https://github.com/xiaojiou176-open/campus-copilot)
-- **If you want local-first recovery and utility tools:** start with [apple-notes-snapshot](https://github.com/xiaojiou176-open/apple-notes-snapshot), [apple-notes-forensics](https://github.com/xiaojiou176-open/apple-notes-forensics), [movi-organizer](https://github.com/xiaojiou176-open/movi-organizer), and [dealwatch](https://github.com/xiaojiou176-open/dealwatch)
+## Shared design instincts
+
+Across the org, the same product instincts keep showing up:
+
+- local-first when trust, recovery, and ownership matter
+- reviewable outputs instead of black-box demos
+- evidence when systems make claims about what happened
+- clear boundaries over vague magic
+- products that can be run, inspected, and explained by another human
