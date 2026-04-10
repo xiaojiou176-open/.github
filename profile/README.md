@@ -16,12 +16,21 @@
 <p align="center">
   <a href="https://github.com/xiaojiou176"><strong>Builder profile</strong></a> •
   <a href="#start-with-the-front-row"><strong>Start with the front row</strong></a> •
+  <a href="#why-this-showroom-is-worth-your-time"><strong>Why this showroom matters</strong></a> •
   <a href="#the-full-atlas"><strong>The full atlas</strong></a>
 </p>
 
-This organization is the public showroom for Terry Yu's open product universe. It is designed to help a first-time visitor understand what exists, where to start, and how the pieces connect, without turning the page into a repo list wall.
+This organization is the public showroom for Terry Yu's open product universe. It is built for first-time visitors who want to understand what the products are, what user problems they solve, and where to start without digging through a repo wall.
 
 Built by [Terry Yu](https://github.com/xiaojiou176).
+
+## Why this showroom is worth your time
+
+This page is not trying to impress you with the number of repositories. It is trying to reduce three kinds of confusion:
+
+- **What does this builder actually make?** Not generic AI wrappers, but products that turn messy inputs and black-box workflows into readable, reviewable, evidence-backed work.
+- **Why these repos instead of another AI GitHub page?** Because the work repeatedly combines user-facing product sense, operator-grade system depth, runtime foundations, and visible proof or recovery paths.
+- **How do I know where to start?** The page is intentionally staged: front row first, flagship reserve second, full atlas third.
 
 ## Start with the front row
 
@@ -31,21 +40,40 @@ These are three parallel doors into the portfolio. They keep the W0 narrative or
   <tr>
     <td width="33%" valign="top">
       <strong><a href="https://github.com/xiaojiou176-open/sourceharbor">SourceHarbor</a></strong><br>
-      <strong>Read</strong><br>
-      See how messy source streams become readable, traceable products.
+      <strong>Read</strong><br><br>
+      <strong>The problem:</strong><br>
+      People can subscribe to more and more sources, but still end up with feeds, summaries, and object lists that never become something truly readable.<br><br>
+      <strong>Why start here:</strong><br>
+      This is the clearest entry to Terry's "read the world" thesis: turn raw source streams into traceable reading products a human would actually keep.
     </td>
     <td width="33%" valign="top">
       <strong><a href="https://github.com/xiaojiou176-open/campus-copilot">campus-copilot</a></strong><br>
-      <strong>Decide</strong><br>
-      See real-world decision systems built with clear boundaries and local-first trust.
+      <strong>Decide</strong><br><br>
+      <strong>The problem:</strong><br>
+      In real academic systems, information is scattered across high-constraint surfaces. Knowing where the data is does not tell a student what to do next.<br><br>
+      <strong>Why start here:</strong><br>
+      This is the clearest proof that the portfolio can enter a real, sensitive domain without bluffing the boundaries.
     </td>
     <td width="33%" valign="top">
       <strong><a href="https://github.com/xiaojiou176-open/CortexPilot-public">CortexPilot-public</a></strong><br>
-      <strong>Orchestrate</strong><br>
-      See operator workflows, governed execution, and replayable evidence.
+      <strong>Orchestrate</strong><br><br>
+      <strong>The problem:</strong><br>
+      Many AI workflows can run, but cannot be trusted, because request, execution, proof, and replay are split apart.<br><br>
+      <strong>Why start here:</strong><br>
+      This is the fastest way to see the operator-grade control-plane layer that sits underneath the product universe.
     </td>
   </tr>
 </table>
+
+## Why these three first
+
+These doors are first not because they are the only strong repos, but because they are the fastest way to understand the three core promises of the universe:
+
+- **SourceHarbor** shows how Terry turns information overload into something readable.
+- **campus-copilot** shows how Terry places AI inside real, high-constraint decision work.
+- **CortexPilot-public** shows how Terry builds governed workflow and orchestration systems, not just thin product surfaces.
+
+The rest of the showroom either deepens one of those promises or reveals the system foundations underneath them.
 
 ## Choose your route
 
@@ -59,30 +87,38 @@ These are three parallel doors into the portfolio. They keep the W0 narrative or
 
 These are not hidden. They are the highest-weight supporting doors around the front row.
 
-- [docsiphon](https://github.com/xiaojiou176-open/docsiphon) — CLI-first docs-to-corpus tooling for reusable local AI knowledge.
-- [Shopflow](https://github.com/xiaojiou176-open/shopflow-suite) — the browser-native commerce product family in the universe.
-- [Switchyard](https://github.com/xiaojiou176-open/Switchyard) — the runtime kernel and access foundation under multiple systems.
-- [agent-exporter](https://github.com/xiaojiou176-open/agent-exporter) — the governance and archive workbench for AI transcript evidence.
+- [docsiphon](https://github.com/xiaojiou176-open/docsiphon) — if the problem is "documentation exists but is still hard to turn into reusable local AI knowledge," this is the corpus-building tool to inspect.
+- [Shopflow](https://github.com/xiaojiou176-open/shopflow-suite) — if the question is whether Terry can build consumer-visible browser product lines instead of only deep system tools, start here.
+- [Switchyard](https://github.com/xiaojiou176-open/Switchyard) — if you want proof that the surface products sit on real runtime and access foundations, inspect this kernel.
+- [agent-exporter](https://github.com/xiaojiou176-open/agent-exporter) — if you want to see governance, archive discipline, and evidence design applied to AI transcript work itself, start here.
 
 ## The full atlas
 
-This page intentionally keeps the full atlas visible. The three front-row doors are the start, not the whole story.
+This page intentionally keeps the full atlas visible. The front row is the entry, not the whole story.
 
 ### Reading and Knowledge Products
+
+Go here if the question is: **How does Terry turn noisy sources into something a person can actually read and reuse?**
 
 - [SourceHarbor](https://github.com/xiaojiou176-open/sourceharbor) — reader-first, no-loss, traceable reading products built from raw source streams.
 - [docsiphon](https://github.com/xiaojiou176-open/docsiphon) — docsites turned into local, rerunnable, AI-ready corpora.
 
 ### Real-World Decision Workspaces
 
+Go here if the question is: **How does Terry help a user decide under real constraints instead of just exposing more data?**
+
 - [campus-copilot](https://github.com/xiaojiou176-open/campus-copilot) — a local-first academic decision workspace with explicit boundaries.
 - [dealwatch](https://github.com/xiaojiou176-open/dealwatch) — compare-first shopping decisions across messy storefront surfaces.
 
 ### Control and Workflow Systems
 
+Go here if the question is: **How does Terry make AI workflows inspectable, governed, and replayable instead of black-box?**
+
 - [CortexPilot-public](https://github.com/xiaojiou176-open/CortexPilot-public) — the governed control plane for requests, execution, proof, and replay.
 
 ### AI Workbenches
+
+Go here if the question is: **How does Terry turn AI work from chatting into structured, reviewable workspaces?**
 
 - [multi-ai-sidepanel](https://github.com/xiaojiou176-open/multi-ai-sidepanel) — a browser-first compare workspace for multiple AI models.
 - [provenote](https://github.com/xiaojiou176-open/provenote) — an outcome-first research workbench for reviewable long-context results.
@@ -91,17 +127,23 @@ This page intentionally keeps the full atlas visible. The three front-row doors 
 
 ### Local Trust Labs
 
+Go here if the question is: **How does Terry build software that gives users visible recovery paths instead of one-shot automation?**
+
 - [apple-notes-snapshot](https://github.com/xiaojiou176-open/apple-notes-snapshot) — visible health checks and structured exports for Apple Notes backup.
 - [apple-notes-forensics](https://github.com/xiaojiou176-open/apple-notes-forensics) — copy-first, reviewable recovery tooling for Apple Notes.
 - [movi-organizer](https://github.com/xiaojiou176-open/movi-organizer) — review-first file organization with deterministic apply and rollback.
 
 ### Runtime and Proof Foundations
 
+Go here if the question is: **What system foundations make the rest of the universe feel trustworthy instead of fragile?**
+
 - [Switchyard](https://github.com/xiaojiou176-open/Switchyard) — the shared runtime kernel for provider access and reusable AI foundations.
 - [prooftrail](https://github.com/xiaojiou176-open/prooftrail) — evidence-first browser automation substrate with recovery and repair built in.
 - [ui-automation-control-plane](https://github.com/xiaojiou176-open/ui-automation-control-plane) — an AI-native WebUI stress lab for proof, review, and workflow experimentation.
 
 ### Browser Product Families
+
+Go here if the question is: **Can Terry turn all this system depth into browser-native products normal users can actually feel?**
 
 - [Shopflow](https://github.com/xiaojiou176-open/shopflow-suite) — the browser-native shopping product family spanning storefront workflows.
 
