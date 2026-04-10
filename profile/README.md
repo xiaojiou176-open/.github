@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/org-hero-v2.svg" alt="xiaojiou176-open organization hero" width="100%">
+  <img src="./assets/org-hero-v3.svg" alt="xiaojiou176-open organization hero" width="100%">
 </p>
 
 <h1 align="center">xiaojiou176-open</h1>
