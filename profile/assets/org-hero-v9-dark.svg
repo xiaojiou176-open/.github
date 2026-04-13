@@ -1,6 +1,6 @@
 <svg width="1600" height="640" viewBox="0 0 1600 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">xiaojiou176-open GitHub org hero v9 dark</title>
-  <desc id="desc">Dark-mode showroom hero for xiaojiou176-open with three flagship doors and static atlas structure.</desc>
+  <desc id="desc">Minimal dark-mode showroom hero for xiaojiou176-open with three flagship doors and a simplified atlas structure.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="640" gradientUnits="userSpaceOnUse">
       <stop stop-color="#09111F"/>
@@ -28,9 +28,7 @@
   <rect x="20" y="20" width="1560" height="600" rx="40" fill="url(#bg)"/>
   <rect x="20" y="20" width="1560" height="600" rx="40" stroke="#334155" stroke-width="2"/>
 
-  <circle cx="1290" cy="116" r="92" fill="#8B5CF6" fill-opacity="0.18"/>
-  <circle cx="1440" cy="210" r="118" fill="#38BDF8" fill-opacity="0.14"/>
-  <circle cx="1186" cy="432" r="112" fill="#2DD4BF" fill-opacity="0.12"/>
+  <circle cx="1316" cy="176" r="92" fill="#8B5CF6" fill-opacity="0.12"/>
 
   <rect x="88" y="74" width="188" height="34" rx="17" fill="#E2E8F0"/>
   <text x="114" y="96" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1.7">SHOWROOM PAGE</text>
@@ -38,52 +36,27 @@
   <text x="88" y="168" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" letter-spacing="2.6">XIAOJIOU176-OPEN</text>
   <text x="88" y="246" fill="#F8FAFC" font-family="Georgia, 'Times New Roman', serif" font-size="58" font-weight="700">Three flagship doors</text>
   <text x="88" y="306" fill="#F8FAFC" font-family="Georgia, 'Times New Roman', serif" font-size="58" font-weight="700">for the fastest way in.</text>
-  <text x="88" y="382" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="600">Then walk the halls, follow the routes, and keep the atlas visible.</text>
-  <text x="88" y="426" fill="#2DD4BF" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800" letter-spacing="1.8">BUILT IN PUBLIC OUT OF SEATTLE, WA (PT)</text>
+  <text x="88" y="382" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="600">Then walk the halls and keep the atlas visible.</text>
+  <text x="88" y="426" fill="#2DD4BF" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800" letter-spacing="1.8">SEATTLE, WA (PT)</text>
 
-  <path d="M560 214C706 214 760 156 840 156" stroke="url(#route)" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 14"/>
-  <path d="M560 262C712 262 792 238 1042 238" stroke="url(#route)" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 14"/>
-  <path d="M560 318C722 318 824 188 1252 188" stroke="url(#route)" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 14"/>
+  <path d="M578 252C708 252 766 212 876 212" stroke="url(#route)" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 14"/>
+  <path d="M578 308C730 308 816 308 1068 308" stroke="url(#route)" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 14"/>
+  <path d="M578 364C724 364 834 252 1258 252" stroke="url(#route)" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 14"/>
 
-  <circle cx="840" cy="156" r="8" fill="#14B8A6"/>
-  <circle cx="1042" cy="238" r="8" fill="#60A5FA"/>
-  <circle cx="1252" cy="188" r="8" fill="#A78BFA"/>
+  <rect x="876" y="158" width="196" height="110" rx="28" fill="url(#doorA)"/>
+  <rect x="1068" y="254" width="196" height="110" rx="28" fill="url(#doorB)"/>
+  <rect x="1258" y="154" width="196" height="110" rx="28" fill="url(#doorC)"/>
 
-  <rect x="838" y="108" width="198" height="184" rx="30" fill="url(#doorA)"/>
-  <rect x="1048" y="178" width="198" height="184" rx="30" fill="url(#doorB)"/>
-  <rect x="1258" y="96" width="198" height="208" rx="30" fill="url(#doorC)"/>
+  <circle cx="876" cy="212" r="8" fill="#14B8A6"/>
+  <circle cx="1068" cy="308" r="8" fill="#60A5FA"/>
+  <circle cx="1258" cy="252" r="8" fill="#A78BFA"/>
 
-  <text x="866" y="144" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">SOURCEHARBOR</text>
-  <text x="866" y="168" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.2">READ</text>
-  <rect x="866" y="188" width="138" height="12" rx="6" fill="#E2E8F0" fill-opacity="0.84"/>
-  <rect x="866" y="212" width="118" height="10" rx="5" fill="#E2E8F0" fill-opacity="0.44"/>
-  <rect x="866" y="236" width="148" height="10" rx="5" fill="#A7F3D0" fill-opacity="0.80"/>
+  <text x="908" y="204" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">SOURCEHARBOR</text>
+  <text x="908" y="234" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.2">READ</text>
 
-  <text x="1078" y="214" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">OPENCAMPUS</text>
-  <text x="1078" y="238" fill="#CCFBF1" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.2">DECIDE</text>
-  <circle cx="1102" cy="274" r="12" fill="#CCFBF1" fill-opacity="0.9"/>
-  <circle cx="1160" cy="274" r="12" fill="#99F6E4" fill-opacity="0.44"/>
-  <circle cx="1218" cy="274" r="12" fill="#99F6E4" fill-opacity="0.44"/>
-  <path d="M1114 274H1206" stroke="#CCFBF1" stroke-width="4" stroke-linecap="round"/>
-  <rect x="1078" y="306" width="136" height="12" rx="6" fill="#ECFEFF" fill-opacity="0.64"/>
+  <text x="1100" y="300" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">OPENCAMPUS</text>
+  <text x="1100" y="330" fill="#CCFBF1" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.2">DECIDE</text>
 
-  <text x="1288" y="136" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">OPENVIBECODING</text>
-  <text x="1288" y="160" fill="#DBEAFE" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.2">ORCHESTRATE</text>
-  <rect x="1288" y="186" width="146" height="16" rx="8" fill="#DBEAFE" fill-opacity="0.84"/>
-  <rect x="1288" y="218" width="64" height="14" rx="7" fill="#A7F3D0" fill-opacity="0.82"/>
-  <rect x="1362" y="218" width="72" height="14" rx="7" fill="#BFDBFE" fill-opacity="0.70"/>
-  <rect x="1288" y="250" width="146" height="14" rx="7" fill="#DBEAFE" fill-opacity="0.34"/>
-  <rect x="1288" y="282" width="112" height="14" rx="7" fill="#E0E7FF" fill-opacity="0.34"/>
-
-  <g transform="translate(822 432)">
-    <rect x="0" y="0" width="100" height="34" rx="17" fill="#111827"/>
-    <rect x="110" y="0" width="116" height="34" rx="17" fill="#111827"/>
-    <rect x="236" y="0" width="116" height="34" rx="17" fill="#111827"/>
-    <rect x="362" y="0" width="104" height="34" rx="17" fill="#111827"/>
-    <rect x="476" y="0" width="120" height="34" rx="17" fill="#111827"/>
-    <rect x="606" y="0" width="124" height="34" rx="17" fill="#111827"/>
-    <rect x="740" y="0" width="118" height="34" rx="17" fill="#111827"/>
-  </g>
-
-  <text x="822" y="504" fill="#2DD4BF" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800" letter-spacing="1.8">SEVEN HALLS • ROUTES BY JOB • FULL ATLAS VISIBLE</text>
+  <text x="1290" y="200" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">OPENVIBECODING</text>
+  <text x="1290" y="230" fill="#DBEAFE" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.2">ORCHESTRATE</text>
 </svg>
