@@ -1,8 +1,5 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/xiaojiou176-open/.github/main/profile/assets/org-hero-v9-dark.svg">
-    <img src="https://raw.githubusercontent.com/xiaojiou176-open/.github/main/profile/assets/org-hero-v9.svg" alt="xiaojiou176-open showroom hero" style="max-width: 100%; height: auto;">
-  </picture>
+  <img src="https://raw.githubusercontent.com/xiaojiou176-open/.github/main/profile/assets/org-hero-gemini.svg" alt="xiaojiou176-open showroom hero" style="max-width: 100%; height: auto;">
 </p>
 
 <h1 align="center">xiaojiou176-open</h1>
