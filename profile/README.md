@@ -35,21 +35,24 @@ These are the three fastest entrances into the portfolio. They keep the canonica
 
 ### [SourceHarbor](https://github.com/xiaojiou176-open/sourceharbor)
 **Readable outputs from raw source streams.**  
-A reading product for the age of overload. It turns messy source material into traceable documents a human would actually keep.
+A reading product for the age of overload. It turns messy source material into traceable documents a human would actually keep.  
+It matters because this portfolio starts by helping people understand the world, not just collect more inputs.
 
 </td>
 <td width="33%" valign="top">
 
 ### [OpenCampus](https://github.com/xiaojiou176-open/campus-copilot)
 **Choose under real constraints without crossing the line.**  
-A local-first academic decision workspace that routes scattered school surfaces into one safer planning environment.
+A local-first academic decision workspace that routes scattered school surfaces into one safer planning environment.  
+It matters because some decisions are real, high-stakes, and boundary-sensitive, not toy demos.
 
 </td>
 <td width="33%" valign="top">
 
 ### [OpenVibeCoding](https://github.com/xiaojiou176-open/CortexPilot-public)
 **Make execution trustworthy, not just impressive.**  
-A governed control plane for requests, workflows, proof, and replay when the system breaks.
+A governed control plane for requests, workflows, proof, and replay when the system breaks.  
+It matters because serious AI systems need inspection, governance, and recovery, not just surface polish.
 
 </td>
 </tr>
@@ -57,34 +60,34 @@ A governed control plane for requests, workflows, proof, and replay when the sys
 
 ## 2. 🧭 Browse by the Job You Care About
 
-| If you care about... | Start here | Then open |
+| If you care about... | Start here | What you get next |
 | --- | --- | --- |
-| **Readable outputs instead of feed overload** | [SourceHarbor](https://github.com/xiaojiou176-open/sourceharbor) | [docsiphon](https://github.com/xiaojiou176-open/docsiphon) |
-| **Choosing under pressure, constraints, or messy interfaces** | [campus-copilot](https://github.com/xiaojiou176-open/campus-copilot) | [dealwatch](https://github.com/xiaojiou176-open/dealwatch) |
-| **Workflows that can be inspected instead of trusted on faith** | [CortexPilot-public](https://github.com/xiaojiou176-open/CortexPilot-public) | [prooftrail](https://github.com/xiaojiou176-open/prooftrail), [ui-automation-control-plane](https://github.com/xiaojiou176-open/ui-automation-control-plane) |
-| **Runtime, access, proof, and recovery** | [Switchyard](https://github.com/xiaojiou176-open/Switchyard) | [prooftrail](https://github.com/xiaojiou176-open/prooftrail), [agent-exporter](https://github.com/xiaojiou176-open/agent-exporter) |
-| **Browser-native, user-facing products** | [Shopflow](https://github.com/xiaojiou176-open/shopflow-suite) | [multi-ai-sidepanel](https://github.com/xiaojiou176-open/multi-ai-sidepanel), [dealwatch](https://github.com/xiaojiou176-open/dealwatch) |
+| **Readable outputs instead of feed overload** | [SourceHarbor](https://github.com/xiaojiou176-open/sourceharbor) | [docsiphon](https://github.com/xiaojiou176-open/docsiphon) extends that into corpus-building and documentation-grade extraction. |
+| **Choosing under pressure, constraints, or messy interfaces** | [campus-copilot](https://github.com/xiaojiou176-open/campus-copilot) | [dealwatch](https://github.com/xiaojiou176-open/dealwatch) shows the same decision discipline in a consumer shopping context. |
+| **Workflows that can be inspected instead of trusted on faith** | [CortexPilot-public](https://github.com/xiaojiou176-open/CortexPilot-public) | [prooftrail](https://github.com/xiaojiou176-open/prooftrail) and [ui-automation-control-plane](https://github.com/xiaojiou176-open/ui-automation-control-plane) deepen the proof, replay, and repair side. |
+| **Runtime, access, proof, and recovery** | [Switchyard](https://github.com/xiaojiou176-open/Switchyard) | [prooftrail](https://github.com/xiaojiou176-open/prooftrail) and [agent-exporter](https://github.com/xiaojiou176-open/agent-exporter) show what that foundation enables once systems have to be inspected and archived. |
+| **Browser-native, user-facing AI products** | [Shopflow](https://github.com/xiaojiou176-open/shopflow-suite) | [dealwatch](https://github.com/xiaojiou176-open/dealwatch) and [multi-ai-sidepanel](https://github.com/xiaojiou176-open/multi-ai-sidepanel) show how the same depth turns into products real users can feel quickly. |
 
 ## 3. 🏛️ Walk the Seven Halls
 
-| Hall | Why it exists | Representative repos |
-| --- | --- | --- |
-| **Reading and Knowledge Products** | Too much source material, not enough clarity. | [SourceHarbor](https://github.com/xiaojiou176-open/sourceharbor), [docsiphon](https://github.com/xiaojiou176-open/docsiphon) |
-| **Real-World Decision Workspaces** | Help someone choose the next move without crossing the line. | [campus-copilot](https://github.com/xiaojiou176-open/campus-copilot), [dealwatch](https://github.com/xiaojiou176-open/dealwatch) |
-| **Control and Workflow Systems** | A workflow can run, but nobody should trust it yet. | [CortexPilot-public](https://github.com/xiaojiou176-open/CortexPilot-public) |
-| **AI Workbenches** | A chat box is not enough; the work needs a real workspace. | [multi-ai-sidepanel](https://github.com/xiaojiou176-open/multi-ai-sidepanel), [provenote](https://github.com/xiaojiou176-open/provenote), [openui-mcp-studio](https://github.com/xiaojiou176-open/openui-mcp-studio), [agent-exporter](https://github.com/xiaojiou176-open/agent-exporter) |
-| **Local Trust Labs** | The action is risky and rollback matters more than speed. | [apple-notes-snapshot](https://github.com/xiaojiou176-open/apple-notes-snapshot), [apple-notes-forensics](https://github.com/xiaojiou176-open/apple-notes-forensics), [movi-organizer](https://github.com/xiaojiou176-open/movi-organizer) |
-| **Runtime and Proof Foundations** | What makes the rest of the system trustworthy underneath. | [Switchyard](https://github.com/xiaojiou176-open/Switchyard), [prooftrail](https://github.com/xiaojiou176-open/prooftrail), [ui-automation-control-plane](https://github.com/xiaojiou176-open/ui-automation-control-plane) |
-| **Browser Product Families** | Turn system depth into something a normal user can actually feel. | [Shopflow](https://github.com/xiaojiou176-open/shopflow-suite) |
+| Hall | What pain it fixes | What these repos actually do | Representative repos |
+| --- | --- | --- | --- |
+| **Reading and Knowledge Products** | Too much source material, not enough clarity. | Rebuild feeds, documents, and source streams into reading-grade outputs that a person would keep. | [SourceHarbor](https://github.com/xiaojiou176-open/sourceharbor), [docsiphon](https://github.com/xiaojiou176-open/docsiphon) |
+| **Real-World Decision Workspaces** | The decision is real, but the information is fragmented and the boundary matters. | Turn scattered academic or shopping surfaces into safer decision environments instead of noisy dashboards. | [campus-copilot](https://github.com/xiaojiou176-open/campus-copilot), [dealwatch](https://github.com/xiaojiou176-open/dealwatch) |
+| **Control and Workflow Systems** | A workflow may run, but nobody can explain, inspect, or recover it. | Add governed execution, replay, and proof to serious AI work. | [CortexPilot-public](https://github.com/xiaojiou176-open/CortexPilot-public) |
+| **AI Workbenches** | A chat box is too thin for real work. | Give prompting, comparison, delivery, and archive work a real workspace instead of a one-shot interface. | [multi-ai-sidepanel](https://github.com/xiaojiou176-open/multi-ai-sidepanel), [provenote](https://github.com/xiaojiou176-open/provenote), [openui-mcp-studio](https://github.com/xiaojiou176-open/openui-mcp-studio), [agent-exporter](https://github.com/xiaojiou176-open/agent-exporter) |
+| **Local Trust Labs** | Risky actions need preview, rollback, and forensic discipline. | Build local-first recovery, snapshot, and verification tools where trust comes from inspectability. | [apple-notes-snapshot](https://github.com/xiaojiou176-open/apple-notes-snapshot), [apple-notes-forensics](https://github.com/xiaojiou176-open/apple-notes-forensics), [movi-organizer](https://github.com/xiaojiou176-open/movi-organizer) |
+| **Runtime and Proof Foundations** | Every visible product breaks if the runtime, proof, or recovery layer is weak. | Provide the shared runtime kernel and evidence substrate that keep the rest of the universe honest. | [Switchyard](https://github.com/xiaojiou176-open/Switchyard), [prooftrail](https://github.com/xiaojiou176-open/prooftrail), [ui-automation-control-plane](https://github.com/xiaojiou176-open/ui-automation-control-plane) |
+| **Browser Product Families** | System depth should become something a normal user can feel without reading architecture docs. | Turn browser workflows into product families instead of isolated utilities. | [Shopflow](https://github.com/xiaojiou176-open/shopflow-suite) |
 
 ## 4. ⭐ Flagship Reserve
 
 If you want the strongest supporting doors around the front row, open these next:
 
-- [docsiphon](https://github.com/xiaojiou176-open/docsiphon) — the strongest extra doorway if you want CLI/corpus engineering.
-- [Shopflow](https://github.com/xiaojiou176-open/shopflow-suite) — the clearest proof of a consumer-facing browser product family.
-- [Switchyard](https://github.com/xiaojiou176-open/Switchyard) — the runtime/access foundation underneath the visible products.
-- [agent-exporter](https://github.com/xiaojiou176-open/agent-exporter) — the clearest archive and governance workbench in the system.
+- [docsiphon](https://github.com/xiaojiou176-open/docsiphon) — if you want the strongest extra doorway into CLI/corpus engineering and document-to-artifact pipelines.
+- [Shopflow](https://github.com/xiaojiou176-open/shopflow-suite) — if you want the clearest proof that this universe can ship consumer-facing browser product families.
+- [Switchyard](https://github.com/xiaojiou176-open/Switchyard) — if you want to see the runtime/access foundation underneath the visible tools.
+- [agent-exporter](https://github.com/xiaojiou176-open/agent-exporter) — if you want the archive, governance, and transcript-to-evidence side of the system.
 
 ## 5. 🔍 How to Use This Showroom
 
