@@ -1,0 +1,47 @@
+<svg width="1600" height="140" viewBox="0 0 1600 140" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">xiaojiou176-open route strip</title>
+  <desc id="desc">Animated route strip for the xiaojiou176-open showroom, showing flagship doors, halls, job-led routes, and visible atlas.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1600" y2="140" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827"/>
+      <stop offset="1" stop-color="#1F2937"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1600" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#14B8A6"/>
+      <stop offset="0.5" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="8" y="8" width="1584" height="124" rx="28" fill="url(#panel)"/>
+  <rect x="8" y="8" width="1584" height="124" rx="28" stroke="#0F766E" stroke-opacity="0.35" stroke-width="2"/>
+
+  <path d="M74 102H1526" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-dasharray="12 16">
+    <animate attributeName="stroke-dashoffset" values="0;-260" dur="14s" repeatCount="indefinite"/>
+  </path>
+
+  <circle cx="84" cy="102" r="6" fill="#14B8A6">
+    <animate attributeName="r" values="5;7;5" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="520" cy="102" r="6" fill="#60A5FA">
+    <animate attributeName="r" values="5;7;5" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="968" cy="102" r="6" fill="#8B5CF6">
+    <animate attributeName="r" values="5;7;5" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1516" cy="102" r="6" fill="#A7F3D0">
+    <animate attributeName="r" values="5;7;5" dur="6s" repeatCount="indefinite"/>
+  </circle>
+
+  <text x="64" y="46" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="800" letter-spacing="1.5">THREE DOORS</text>
+  <text x="64" y="74" fill="#D6D3D1" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600">Read • Decide • Orchestrate</text>
+
+  <text x="430" y="46" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="800" letter-spacing="1.5">SEVEN HALLS</text>
+  <text x="430" y="74" fill="#D6D3D1" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600">reading • decisions • control • workbenches • trust labs • foundations • browser</text>
+
+  <text x="1014" y="46" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="800" letter-spacing="1.5">ROUTES BY JOB</text>
+  <text x="1014" y="74" fill="#D6D3D1" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600">better reading • safer choices • trustworthy execution • runtime and proof • user-facing products</text>
+
+  <text x="1516" y="46" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="800" letter-spacing="1.5" text-anchor="end">FULL ATLAS</text>
+  <text x="1516" y="74" fill="#D6D3D1" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600" text-anchor="end">kept visible on purpose</text>
+</svg>
