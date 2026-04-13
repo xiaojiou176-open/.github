@@ -1,97 +1,98 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" width="100%" height="auto">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="100%" height="auto">
   <defs>
     <style>
+      /* 极致暗色模式自适应与高对比度控制 */
       :root {
-        --text-primary: #1f2328;
-        --text-secondary: #656d76;
-        --border-color: #d0d7de;
+        --text-main: #1f2328;
+        --text-sub: #656d76;
+        --border: #d0d7de;
         --accent: #0969da;
-        --bg-card: #ffffff;
-        --trace-color: rgba(9, 105, 218, 0.4);
-        --grid-color: rgba(31, 35, 40, 0.04);
+        --bg: transparent;
+        --grid: rgba(31, 35, 40, 0.05);
       }
       @media (prefers-color-scheme: dark) {
         :root {
-          --text-primary: #e6edf3;
-          --text-secondary: #7d8590;
-          --border-color: #30363d;
+          --text-main: #e6edf3;
+          --text-sub: #7d8590;
+          --border: #30363d;
           --accent: #58a6ff;
-          --bg-card: #0d1117;
-          --trace-color: rgba(88, 166, 255, 0.3);
-          --grid-color: rgba(230, 237, 243, 0.04);
+          --grid: rgba(230, 237, 243, 0.04);
         }
       }
 
-      .text-primary { fill: var(--text-primary); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
-      .text-secondary { fill: var(--text-secondary); font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace; font-size: 11px; }
-      .card-bg { fill: var(--bg-card); stroke: var(--border-color); stroke-width: 1; rx: 6; }
-      .accent-line { stroke: var(--accent); stroke-width: 1.5; fill: none; }
-      .trace-text { fill: var(--trace-color); font-family: SFMono-Regular, Consolas, monospace; font-size: 12px; font-weight: 600; }
+      /* 排版纪律 */
+      .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .font-mono { font-family: SFMono-Regular, Consolas, monospace; font-size: 11px; }
 
-      @keyframes ekg-pulse {
-        0% { stroke-dashoffset: 600; opacity: 0; }
+      /* 建筑学硬线条与物理插槽感 */
+      .door-card { fill: transparent; stroke: var(--border); stroke-width: 1; rx: 3; }
+      .hard-line { stroke: var(--border); stroke-width: 1; fill: none; }
+
+      /* 硬核数据脉冲与状态灯 */
+      .data-pulse {
+        stroke: var(--accent);
+        stroke-width: 2;
+        fill: none;
+        stroke-dasharray: 80 800;
+        animation: hard-pulse 3.5s cubic-bezier(0.8, 0, 0.2, 1) infinite;
+      }
+      .status-blink { animation: blinker 4s steps(2, start) infinite; }
+
+      @keyframes hard-pulse {
+        0% { stroke-dashoffset: 800; opacity: 0; }
         10% { opacity: 1; }
-        35% { stroke-dashoffset: 300; animation-timing-function: cubic-bezier(0.8, 0, 0.2, 1); }
-        55% { stroke-dashoffset: 300; }
-        85% { stroke-dashoffset: 0; opacity: 1; animation-timing-function: cubic-bezier(0.1, 0.9, 0.2, 1); }
+        45% { stroke-dashoffset: 400; }
+        55% { stroke-dashoffset: 400; }
+        90% { stroke-dashoffset: 0; opacity: 1; }
         100% { stroke-dashoffset: 0; opacity: 0; }
       }
-
-      @keyframes log-scroll {
-        0% { transform: translateY(0); opacity: 0; }
-        15% { opacity: 1; }
-        70% { opacity: 1; }
-        100% { transform: translateY(-30px); opacity: 0; }
+      @keyframes blinker {
+        0%, 90% { fill: var(--accent); }
+        95%, 100% { fill: transparent; }
       }
-
-      .pulse-line {
-        stroke-dasharray: 600;
-        stroke-dashoffset: 600;
-        animation: ekg-pulse 4s infinite;
-      }
-      .log-stream { animation: log-scroll 3s cubic-bezier(0.1, 0.9, 0.2, 1) infinite; }
-      .log-stream-delay { animation: log-scroll 3s cubic-bezier(0.1, 0.9, 0.2, 1) 1.5s infinite; opacity: 0; }
     </style>
 
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="var(--grid-color)" stroke-width="1" />
+    <pattern id="arch-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="var(--grid)" stroke-width="1" />
     </pattern>
   </defs>
 
-  <rect width="100%" height="100%" fill="url(#grid)" />
+  <rect width="100%" height="100%" fill="url(#arch-grid)" />
 
-  <g transform="translate(50, 215)">
-    <text class="trace-text log-stream">[TRACE_ID: 0x9A4F] POST /v1/orchestrate -&gt; 200 OK</text>
-    <text class="trace-text log-stream-delay">[SYSTEM_LOG] Verifying proof... L0 control plane synced.</text>
+  <g transform="translate(40, 30)" class="font-mono">
+    <rect x="0" y="-8" width="8" height="8" class="status-blink" />
+    <text x="16" y="0" fill="var(--text-main)" font-weight="bold">[ORG_SHOWROOM]</text>
+    <text x="140" y="0" fill="var(--text-sub)">STATUS: PUBLIC_ROUTING_ACTIVE</text>
+    <path d="M 0 10 L 720 10" class="hard-line" />
   </g>
 
-  <path d="M 170 115 L 630 115" class="accent-line" opacity="0.2" />
-  <path d="M 170 115 L 630 115" class="accent-line pulse-line" />
-
-  <g transform="translate(90, 65)">
-    <rect width="170" height="100" class="card-bg" />
-    <circle cx="20" cy="22" r="4" fill="var(--accent)" />
-    <text x="35" y="26" class="text-primary" font-weight="600" font-size="15">SourceHarbor</text>
-    <text x="20" y="55" class="text-secondary">■ READ_LANE</text>
-    <text x="20" y="72" class="text-secondary">Knowledge Artifacts</text>
-    <text x="20" y="90" class="text-secondary"># Not generic RSS</text>
+  <g transform="translate(40, 75)">
+    <rect width="220" height="90" class="door-card" />
+    <path d="M 0 26 L 220 26" class="hard-line" />
+    <text x="14" y="17" class="font-mono" fill="var(--text-sub)">01 / FRONT_ROW</text>
+    <text x="14" y="55" class="font-sans" fill="var(--text-main)" font-weight="600" font-size="16">SourceHarbor</text>
+    <text x="14" y="76" class="font-mono" fill="var(--text-sub)">&gt; READ_ARTIFACTS</text>
   </g>
 
-  <g transform="translate(315, 65)">
-    <rect width="170" height="100" class="card-bg" />
-    <circle cx="20" cy="22" r="4" fill="var(--accent)" />
-    <text x="35" y="26" class="text-primary" font-weight="600" font-size="15">OpenCampus</text>
-    <text x="20" y="55" class="text-secondary">■ DECIDE_LANE</text>
-    <text x="20" y="72" class="text-secondary">High-Constraint Logic</text>
-    <text x="20" y="90" class="text-secondary"># Review-first</text>
+  <g transform="translate(290, 75)">
+    <rect width="220" height="90" class="door-card" />
+    <path d="M 0 26 L 220 26" class="hard-line" />
+    <text x="14" y="17" class="font-mono" fill="var(--text-sub)">02 / FRONT_ROW</text>
+    <text x="14" y="55" class="font-sans" fill="var(--text-main)" font-weight="600" font-size="16">OpenCampus</text>
+    <text x="14" y="76" class="font-mono" fill="var(--text-sub)">&gt; DECISION_ENGINE</text>
   </g>
 
-  <g transform="translate(540, 65)">
-    <rect width="170" height="100" class="card-bg" />
-    <circle cx="20" cy="22" r="4" fill="var(--accent)" />
-    <text x="35" y="26" class="text-primary" font-weight="600" font-size="15">OpenVibeCoding</text>
-    <text x="20" y="55" class="text-secondary">■ ORCHESTRATE_LANE</text>
-    <text x="20" y="72" class="text-secondary">L0 Control Plane</text>
-    <text x="20" y="90" class="text-secondary"># Governed execution</text>
+  <g transform="translate(540, 75)">
+    <rect width="220" height="90" class="door-card" />
+    <path d="M 0 26 L 220 26" class="hard-line" />
+    <text x="14" y="17" class="font-mono" fill="var(--text-sub)">03 / FRONT_ROW</text>
+    <text x="14" y="55" class="font-sans" fill="var(--text-main)" font-weight="600" font-size="16">OpenVibeCoding</text>
+    <text x="14" y="76" class="font-mono" fill="var(--text-sub)">&gt; CONTROL_PLANE</text>
+  </g>
+
+  <g transform="translate(40, 205)">
+    <path d="M 0 0 L 720 0" class="hard-line" opacity="0.4" />
+    <path d="M 0 0 L 720 0" class="data-pulse" />
+    <text x="0" y="20" class="font-mono" fill="var(--text-sub)">SYS_MSG: Select a door to explore specific proof objects and technical boundaries.</text>
   </g>
 </svg>
