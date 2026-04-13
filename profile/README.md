@@ -4,7 +4,7 @@
 
 <h1 align="center">xiaojiou176-open</h1>
 
-<p align="center"><strong>A public showroom for readable, reviewable, evidence-backed AI products.</strong><br>Start with three flagship doors, then move through the halls, routes, and the full atlas.</p>
+<p align="center"><strong>A public showroom for readable, reviewable, evidence-backed AI products.</strong><br>Start with four flagship doors, then move through the halls, routes, and the full atlas.</p>
 
 <p align="center">
   <a href="https://github.com/xiaojiou176"><strong>Builder profile</strong></a> •
@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <img alt="Flagship doors" src="https://img.shields.io/badge/Flagship%20doors-3-0F172A?style=for-the-badge&labelColor=111827">
+  <img alt="Flagship doors" src="https://img.shields.io/badge/Flagship%20doors-4-0F172A?style=for-the-badge&labelColor=111827">
   <img alt="Product halls" src="https://img.shields.io/badge/Product%20halls-7-0891B2?style=for-the-badge&labelColor=111827">
   <img alt="Visible atlas" src="https://img.shields.io/badge/Visible%20atlas-16%20repos-7C3AED?style=for-the-badge&labelColor=111827">
   <img alt="Built in public" src="https://img.shields.io/badge/Built%20in%20public-GitHub-0F766E?style=for-the-badge&logo=github&logoColor=white&labelColor=111827">
@@ -27,11 +27,11 @@
 
 ## 1. 🚪 Enter through the Front Row
 
-These are the three fastest entrances into the portfolio. They keep the canonical order, but they are not a prize ranking.
+These are the four fastest entrances into the portfolio. They keep the canonical order, but they are not a prize ranking.
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="25%" valign="top">
 
 ### [SourceHarbor](https://github.com/xiaojiou176-open/sourceharbor)
 **Readable outputs from raw source streams.**  
@@ -39,7 +39,7 @@ A reading product that turns messy source material into traceable documents, bri
 It matters because this portfolio starts by helping people understand the world, not just collect more feeds and dashboards.
 
 </td>
-<td width="33%" valign="top">
+<td width="25%" valign="top">
 
 ### [OpenCampus](https://github.com/xiaojiou176-open/campus-copilot)
 **Choose under real constraints without crossing the line.**  
@@ -47,12 +47,20 @@ A local-first academic workspace that pulls Canvas, Gradescope, EdStem, and MyUW
 It matters because some decisions are real, high-stakes, and boundary-sensitive, not toy demos.
 
 </td>
-<td width="33%" valign="top">
+<td width="25%" valign="top">
 
 ### [OpenVibeCoding](https://github.com/xiaojiou176-open/CortexPilot-public)
 **Make execution trustworthy, not just impressive.**  
 An open command tower for AI engineering that helps teams plan, delegate, track, resume, and prove long-running work instead of juggling chats, scripts, and after-the-fact logs.  
 It matters because serious AI systems need inspection, governance, and recovery, not just surface polish.
+
+</td>
+<td width="25%" valign="top">
+
+### [Switchyard](https://github.com/xiaojiou176-open/Switchyard)
+**Give the rest of the universe one runtime to stand on.**  
+A shared provider runtime kernel that unifies BYOK, Web/Login access, provider routing, and runtime diagnostics into one reusable layer for the products above it.  
+It matters because a lot of visible tools break the moment nobody owns the runtime and access layer underneath them.
 
 </td>
 </tr>
@@ -94,4 +102,4 @@ If you want the strongest supporting doors around the front row, open these next
 - **Use the front row if you want the shortest path in.**
 - **Use the halls if you want the portfolio grouped by the job it solves.**
 - **Use the routes if you already know the problem you care about.**
-- **Use the atlas if you want the deeper layers to stay visible instead of disappearing behind three highlight repos.**
+- **Use the atlas if you want the deeper layers to stay visible instead of disappearing behind four highlight repos.**
