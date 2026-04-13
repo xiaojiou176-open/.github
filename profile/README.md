@@ -18,10 +18,6 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/xiaojiou176-open/.github/main/profile/assets/org-route-strip-v1.svg" alt="Route strip for xiaojiou176-open showroom" style="max-width: 100%; height: auto;">
-</p>
-
-<p align="center">
   <img alt="Flagship doors" src="https://img.shields.io/badge/Flagship%20doors-3-0F172A?style=for-the-badge&labelColor=111827">
   <img alt="Product halls" src="https://img.shields.io/badge/Product%20halls-7-0891B2?style=for-the-badge&labelColor=111827">
   <img alt="Visible atlas" src="https://img.shields.io/badge/Visible%20atlas-16%20repos-7C3AED?style=for-the-badge&labelColor=111827">
@@ -40,23 +36,21 @@ These are the three fastest entrances into the portfolio. They keep the canonica
 <tr>
 <td width="33%" valign="top">
 
-### SourceHarbor
+### [SourceHarbor](https://github.com/xiaojiou176-open/sourceharbor)
 **Readable outputs from raw source streams.**  
 A reading product for the age of overload. It turns messy source material into traceable documents a human would actually keep.
 
 </td>
 <td width="33%" valign="top">
 
-### OpenCampus  
-`campus-copilot` today  
+### [OpenCampus](https://github.com/xiaojiou176-open/campus-copilot)
 **Choose under real constraints without crossing the line.**  
 A local-first academic decision workspace that routes scattered school surfaces into one safer planning environment.
 
 </td>
 <td width="33%" valign="top">
 
-### OpenVibeCoding  
-`CortexPilot-public` today  
+### [OpenVibeCoding](https://github.com/xiaojiou176-open/CortexPilot-public)
 **Make execution trustworthy, not just impressive.**  
 A governed control plane for requests, workflows, proof, and replay when the system breaks.
 
