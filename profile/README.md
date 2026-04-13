@@ -90,11 +90,12 @@ It matters because a lot of visible tools break the moment nobody owns the runti
 
 ## 4. ⭐ Flagship Reserve
 
-If you want the strongest supporting doors around the front row, open these next:
+If you want the strongest second-ring doors after the front row, open these next.
+This shelf should widen the picture, not repeat the same four doors again.
 
 - [docsiphon](https://github.com/xiaojiou176-open/docsiphon) — if you want the strongest extra doorway into CLI/corpus engineering and document-to-artifact pipelines.
 - [Shopflow](https://github.com/xiaojiou176-open/shopflow-suite) — if you want the clearest proof that this universe can ship consumer-facing browser product families.
-- [Switchyard](https://github.com/xiaojiou176-open/Switchyard) — if you want to see the runtime/access foundation underneath the visible tools.
+- [DealWatch](https://github.com/xiaojiou176-open/dealwatch) — if you want the cleanest browser-native example of compare-first, evidence-backed decision making.
 - [agent-exporter](https://github.com/xiaojiou176-open/agent-exporter) — if you want the archive, governance, and transcript-to-evidence side of the system.
 
 ## 5. 🔍 How to Use This Showroom
