@@ -35,15 +35,15 @@ These are the three fastest entrances into the portfolio. They keep the canonica
 
 ### [SourceHarbor](https://github.com/xiaojiou176-open/sourceharbor)
 **Readable outputs from raw source streams.**  
-A reading product for the age of overload. It turns messy source material into traceable documents a human would actually keep.  
-It matters because this portfolio starts by helping people understand the world, not just collect more inputs.
+A reading product that turns messy source material into traceable documents, briefings, and grounded answers a human would actually keep.  
+It matters because this portfolio starts by helping people understand the world, not just collect more feeds and dashboards.
 
 </td>
 <td width="33%" valign="top">
 
 ### [OpenCampus](https://github.com/xiaojiou176-open/campus-copilot)
 **Choose under real constraints without crossing the line.**  
-A local-first academic decision workspace that routes scattered school surfaces into one safer planning environment.  
+A local-first academic workspace that pulls Canvas, Gradescope, EdStem, and MyUW into one place, then shows what changed, what is still open, and what needs attention first.  
 It matters because some decisions are real, high-stakes, and boundary-sensitive, not toy demos.
 
 </td>
@@ -51,7 +51,7 @@ It matters because some decisions are real, high-stakes, and boundary-sensitive,
 
 ### [OpenVibeCoding](https://github.com/xiaojiou176-open/CortexPilot-public)
 **Make execution trustworthy, not just impressive.**  
-A governed control plane for requests, workflows, proof, and replay when the system breaks.  
+An open command tower for AI engineering that helps teams plan, delegate, track, resume, and prove long-running work instead of juggling chats, scripts, and after-the-fact logs.  
 It matters because serious AI systems need inspection, governance, and recovery, not just surface polish.
 
 </td>
@@ -63,18 +63,18 @@ It matters because serious AI systems need inspection, governance, and recovery,
 | If you care about... | Start here | What you get next |
 | --- | --- | --- |
 | **Readable outputs instead of feed overload** | [SourceHarbor](https://github.com/xiaojiou176-open/sourceharbor) | [docsiphon](https://github.com/xiaojiou176-open/docsiphon) extends that into corpus-building and documentation-grade extraction. |
-| **Choosing under pressure, constraints, or messy interfaces** | [campus-copilot](https://github.com/xiaojiou176-open/campus-copilot) | [dealwatch](https://github.com/xiaojiou176-open/dealwatch) shows the same decision discipline in a consumer shopping context. |
-| **Workflows that can be inspected instead of trusted on faith** | [CortexPilot-public](https://github.com/xiaojiou176-open/CortexPilot-public) | [prooftrail](https://github.com/xiaojiou176-open/prooftrail) and [ui-automation-control-plane](https://github.com/xiaojiou176-open/ui-automation-control-plane) deepen the proof, replay, and repair side. |
+| **Choosing under pressure, constraints, or messy interfaces** | [OpenCampus](https://github.com/xiaojiou176-open/campus-copilot) | [DealWatch](https://github.com/xiaojiou176-open/dealwatch) carries the same decision discipline into a consumer shopping workflow. |
+| **Workflows that can be inspected instead of trusted on faith** | [OpenVibeCoding](https://github.com/xiaojiou176-open/CortexPilot-public) | [prooftrail](https://github.com/xiaojiou176-open/prooftrail) and [ui-automation-control-plane](https://github.com/xiaojiou176-open/ui-automation-control-plane) push that further into proof, replay, and repair. |
 | **Runtime, access, proof, and recovery** | [Switchyard](https://github.com/xiaojiou176-open/Switchyard) | [prooftrail](https://github.com/xiaojiou176-open/prooftrail) and [agent-exporter](https://github.com/xiaojiou176-open/agent-exporter) show what that foundation enables once systems have to be inspected and archived. |
-| **Browser-native, user-facing AI products** | [Shopflow](https://github.com/xiaojiou176-open/shopflow-suite) | [dealwatch](https://github.com/xiaojiou176-open/dealwatch) and [multi-ai-sidepanel](https://github.com/xiaojiou176-open/multi-ai-sidepanel) show how the same depth turns into products real users can feel quickly. |
+| **Browser-native, user-facing AI products** | [Shopflow](https://github.com/xiaojiou176-open/shopflow-suite) | [DealWatch](https://github.com/xiaojiou176-open/dealwatch) and [multi-ai-sidepanel](https://github.com/xiaojiou176-open/multi-ai-sidepanel) show how the same depth turns into products real users can feel quickly. |
 
 ## 3. 🏛️ Walk the Seven Halls
 
 | Hall | What pain it fixes | What these repos actually do | Representative repos |
 | --- | --- | --- | --- |
 | **Reading and Knowledge Products** | Too much source material, not enough clarity. | Rebuild feeds, documents, and source streams into reading-grade outputs that a person would keep. | [SourceHarbor](https://github.com/xiaojiou176-open/sourceharbor), [docsiphon](https://github.com/xiaojiou176-open/docsiphon) |
-| **Real-World Decision Workspaces** | The decision is real, but the information is fragmented and the boundary matters. | Turn scattered academic or shopping surfaces into safer decision environments instead of noisy dashboards. | [campus-copilot](https://github.com/xiaojiou176-open/campus-copilot), [dealwatch](https://github.com/xiaojiou176-open/dealwatch) |
-| **Control and Workflow Systems** | A workflow may run, but nobody can explain, inspect, or recover it. | Add governed execution, replay, and proof to serious AI work. | [CortexPilot-public](https://github.com/xiaojiou176-open/CortexPilot-public) |
+| **Real-World Decision Workspaces** | The decision is real, but the information is fragmented and the boundary matters. | Turn scattered academic or shopping surfaces into safer decision environments instead of noisy dashboards. | [OpenCampus](https://github.com/xiaojiou176-open/campus-copilot), [DealWatch](https://github.com/xiaojiou176-open/dealwatch) |
+| **Control and Workflow Systems** | A workflow may run, but nobody can explain, inspect, or recover it. | Add governed execution, replay, and proof to serious AI work. | [OpenVibeCoding](https://github.com/xiaojiou176-open/CortexPilot-public) |
 | **AI Workbenches** | A chat box is too thin for real work. | Give prompting, comparison, delivery, and archive work a real workspace instead of a one-shot interface. | [multi-ai-sidepanel](https://github.com/xiaojiou176-open/multi-ai-sidepanel), [provenote](https://github.com/xiaojiou176-open/provenote), [openui-mcp-studio](https://github.com/xiaojiou176-open/openui-mcp-studio), [agent-exporter](https://github.com/xiaojiou176-open/agent-exporter) |
 | **Local Trust Labs** | Risky actions need preview, rollback, and forensic discipline. | Build local-first recovery, snapshot, and verification tools where trust comes from inspectability. | [apple-notes-snapshot](https://github.com/xiaojiou176-open/apple-notes-snapshot), [apple-notes-forensics](https://github.com/xiaojiou176-open/apple-notes-forensics), [movi-organizer](https://github.com/xiaojiou176-open/movi-organizer) |
 | **Runtime and Proof Foundations** | Every visible product breaks if the runtime, proof, or recovery layer is weak. | Provide the shared runtime kernel and evidence substrate that keep the rest of the universe honest. | [Switchyard](https://github.com/xiaojiou176-open/Switchyard), [prooftrail](https://github.com/xiaojiou176-open/prooftrail), [ui-automation-control-plane](https://github.com/xiaojiou176-open/ui-automation-control-plane) |
