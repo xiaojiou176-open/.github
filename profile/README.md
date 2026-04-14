@@ -17,7 +17,7 @@
 <p align="center">
   <img alt="Flagship doors" src="https://img.shields.io/badge/Flagship%20doors-4-0F172A?style=for-the-badge&labelColor=111827">
   <img alt="Product halls" src="https://img.shields.io/badge/Product%20halls-7-0891B2?style=for-the-badge&labelColor=111827">
-  <img alt="Visible atlas" src="https://img.shields.io/badge/Visible%20atlas-16%20repos-7C3AED?style=for-the-badge&labelColor=111827">
+  <img alt="Visible atlas" src="https://img.shields.io/badge/Visible%20atlas-full%20product%20map-7C3AED?style=for-the-badge&labelColor=111827">
   <img alt="Built in public" src="https://img.shields.io/badge/Built%20in%20public-GitHub-0F766E?style=for-the-badge&logo=github&logoColor=white&labelColor=111827">
 </p>
 
@@ -66,7 +66,7 @@ It matters because a lot of visible tools break the moment nobody owns the runti
 </tr>
 </table>
 
-## 2. 🧭 Browse by the Job You Care About
+## 2. 🧭 Browse the Atlas by Job
 
 | If you care about... | Start here | What you get next |
 | --- | --- | --- |
@@ -76,7 +76,7 @@ It matters because a lot of visible tools break the moment nobody owns the runti
 | **Runtime, access, proof, and recovery** | [Switchyard](https://github.com/xiaojiou176-open/Switchyard) | [prooftrail](https://github.com/xiaojiou176-open/prooftrail) and [agent-exporter](https://github.com/xiaojiou176-open/agent-exporter) show what that foundation enables once systems have to be inspected and archived. |
 | **Browser-native, user-facing AI products** | [Shopflow](https://github.com/xiaojiou176-open/shopflow-suite) | [DealWatch](https://github.com/xiaojiou176-open/dealwatch) and [multi-ai-sidepanel](https://github.com/xiaojiou176-open/multi-ai-sidepanel) show how the same depth turns into products real users can feel quickly. |
 
-## 3. 🏛️ Walk the Seven Halls
+## 3. 🏛️ What Lives in Each Hall
 
 | Hall | What pain it fixes | What these repos actually do | Representative repos |
 | --- | --- | --- | --- |

@@ -1,98 +1,67 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="100%" height="auto">
+<svg width="1600" height="560" viewBox="0 0 1600 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">xiaojiou176-open GitHub org showroom hero</title>
+  <desc id="desc">Showroom hero for xiaojiou176-open with four flagship doors and a visible atlas.</desc>
   <defs>
-    <style>
-      /* 极致暗色模式自适应与高对比度控制 */
-      :root {
-        --text-main: #1f2328;
-        --text-sub: #656d76;
-        --border: #d0d7de;
-        --accent: #0969da;
-        --bg: transparent;
-        --grid: rgba(31, 35, 40, 0.05);
-      }
-      @media (prefers-color-scheme: dark) {
-        :root {
-          --text-main: #e6edf3;
-          --text-sub: #7d8590;
-          --border: #30363d;
-          --accent: #58a6ff;
-          --grid: rgba(230, 237, 243, 0.04);
-        }
-      }
-
-      /* 排版纪律 */
-      .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
-      .font-mono { font-family: SFMono-Regular, Consolas, monospace; font-size: 11px; }
-
-      /* 建筑学硬线条与物理插槽感 */
-      .door-card { fill: transparent; stroke: var(--border); stroke-width: 1; rx: 3; }
-      .hard-line { stroke: var(--border); stroke-width: 1; fill: none; }
-
-      /* 硬核数据脉冲与状态灯 */
-      .data-pulse {
-        stroke: var(--accent);
-        stroke-width: 2;
-        fill: none;
-        stroke-dasharray: 80 800;
-        animation: hard-pulse 3.5s cubic-bezier(0.8, 0, 0.2, 1) infinite;
-      }
-      .status-blink { animation: blinker 4s steps(2, start) infinite; }
-
-      @keyframes hard-pulse {
-        0% { stroke-dashoffset: 800; opacity: 0; }
-        10% { opacity: 1; }
-        45% { stroke-dashoffset: 400; }
-        55% { stroke-dashoffset: 400; }
-        90% { stroke-dashoffset: 0; opacity: 1; }
-        100% { stroke-dashoffset: 0; opacity: 0; }
-      }
-      @keyframes blinker {
-        0%, 90% { fill: var(--accent); }
-        95%, 100% { fill: transparent; }
-      }
-    </style>
-
-    <pattern id="arch-grid" width="20" height="20" patternUnits="userSpaceOnUse">
-      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="var(--grid)" stroke-width="1" />
-    </pattern>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6F1E8"/>
+      <stop offset="1" stop-color="#EBE0CF"/>
+    </linearGradient>
+    <linearGradient id="door1" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="door2" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0F766E"/>
+      <stop offset="1" stop-color="#115E59"/>
+    </linearGradient>
+    <linearGradient id="door3" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <linearGradient id="door4" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#3730A3"/>
+      <stop offset="1" stop-color="#312E81"/>
+    </linearGradient>
   </defs>
 
-  <rect width="100%" height="100%" fill="url(#arch-grid)" />
+  <rect x="20" y="20" width="1560" height="520" rx="36" fill="url(#bg)"/>
+  <rect x="20" y="20" width="1560" height="520" rx="36" stroke="#1C1917" stroke-width="2"/>
 
-  <g transform="translate(40, 30)" class="font-mono">
-    <rect x="0" y="-8" width="8" height="8" class="status-blink" />
-    <text x="16" y="0" fill="var(--text-main)" font-weight="bold">[ORG_SHOWROOM]</text>
-    <text x="140" y="0" fill="var(--text-sub)">STATUS: PUBLIC_ROUTING_ACTIVE</text>
-    <path d="M 0 10 L 720 10" class="hard-line" />
-  </g>
+  <circle cx="1360" cy="126" r="84" fill="#C4B5FD" fill-opacity="0.42"/>
+  <circle cx="1468" cy="204" r="114" fill="#BFDBFE" fill-opacity="0.40"/>
+  <circle cx="1278" cy="346" r="98" fill="#99F6E4" fill-opacity="0.38"/>
 
-  <g transform="translate(40, 75)">
-    <rect width="220" height="90" class="door-card" />
-    <path d="M 0 26 L 220 26" class="hard-line" />
-    <text x="14" y="17" class="font-mono" fill="var(--text-sub)">01 / FRONT_ROW</text>
-    <text x="14" y="55" class="font-sans" fill="var(--text-main)" font-weight="600" font-size="16">SourceHarbor</text>
-    <text x="14" y="76" class="font-mono" fill="var(--text-sub)">&gt; READ_ARTIFACTS</text>
-  </g>
+  <rect x="88" y="78" width="196" height="32" rx="16" fill="#111827"/>
+  <text x="112" y="99" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1.6">SHOWROOM PAGE</text>
 
-  <g transform="translate(290, 75)">
-    <rect width="220" height="90" class="door-card" />
-    <path d="M 0 26 L 220 26" class="hard-line" />
-    <text x="14" y="17" class="font-mono" fill="var(--text-sub)">02 / FRONT_ROW</text>
-    <text x="14" y="55" class="font-sans" fill="var(--text-main)" font-weight="600" font-size="16">OpenCampus</text>
-    <text x="14" y="76" class="font-mono" fill="var(--text-sub)">&gt; DECISION_ENGINE</text>
-  </g>
+  <text x="88" y="184" fill="#111827" font-family="Georgia, 'Times New Roman', serif" font-size="74" font-weight="700">xiaojiou176-open</text>
+  <text x="88" y="258" fill="#111827" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="700">Four doors. Seven halls.</text>
+  <text x="88" y="314" fill="#111827" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="700">One visible atlas.</text>
+  <text x="90" y="372" fill="#44403C" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="600">Start with the flagship doors, then route deeper by job, hall, and proof surface.</text>
 
-  <g transform="translate(540, 75)">
-    <rect width="220" height="90" class="door-card" />
-    <path d="M 0 26 L 220 26" class="hard-line" />
-    <text x="14" y="17" class="font-mono" fill="var(--text-sub)">03 / FRONT_ROW</text>
-    <text x="14" y="55" class="font-sans" fill="var(--text-main)" font-weight="600" font-size="16">OpenVibeCoding</text>
-    <text x="14" y="76" class="font-mono" fill="var(--text-sub)">&gt; CONTROL_PLANE</text>
-  </g>
+  <line x1="88" y1="420" x2="648" y2="420" stroke="#1C1917" stroke-width="2"/>
+  <text x="88" y="458" fill="#0F766E" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800" letter-spacing="1.6">PUBLIC PRODUCT SHOWROOM</text>
+  <text x="88" y="490" fill="#44403C" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="500">Open one door first. The atlas stays visible when you want the full system.</text>
 
-  <g transform="translate(40, 205)">
-    <path d="M 0 0 L 720 0" class="hard-line" opacity="0.4" />
-    <path d="M 0 0 L 720 0" class="data-pulse" />
-    <text x="0" y="20" class="font-mono" fill="var(--text-sub)">SYS_MSG: Select a door to explore specific proof objects and technical boundaries.</text>
-  </g>
+  <rect x="930" y="92" width="144" height="164" rx="28" fill="url(#door1)"/>
+  <rect x="1094" y="92" width="144" height="164" rx="28" fill="url(#door2)"/>
+  <rect x="1258" y="92" width="144" height="164" rx="28" fill="url(#door3)"/>
+  <rect x="1422" y="92" width="112" height="164" rx="28" fill="url(#door4)"/>
+
+  <text x="960" y="286" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="800" letter-spacing="1.4">SOURCEHARBOR</text>
+  <text x="1118" y="286" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="800" letter-spacing="1.4">OPENCAMPUS</text>
+  <text x="1278" y="286" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="800" letter-spacing="1.4">OPENVIBECODING</text>
+  <text x="1442" y="286" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="800" letter-spacing="1.4">SWITCHYARD</text>
+
+  <rect x="938" y="318" width="112" height="34" rx="17" fill="#111827"/>
+  <rect x="1062" y="318" width="112" height="34" rx="17" fill="#111827"/>
+  <rect x="1186" y="318" width="122" height="34" rx="17" fill="#111827"/>
+  <rect x="1320" y="318" width="112" height="34" rx="17" fill="#111827"/>
+  <rect x="1444" y="318" width="98" height="34" rx="17" fill="#111827"/>
+
+  <text x="970" y="340" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700">READ</text>
+  <text x="1096" y="340" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700">DECIDE</text>
+  <text x="1218" y="340" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700">ORCHESTRATE</text>
+  <text x="1350" y="340" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700">RUNTIME</text>
+  <text x="1468" y="340" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700">ATLAS</text>
 </svg>
