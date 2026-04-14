@@ -23,9 +23,11 @@
 > Start with one flagship door. If it clicks, the rest of the atlas will make sense.  
 > Built in public out of **Seattle, WA (PT)**.
 
+> This is not a shelf of classroom demos or one-off AI wrappers. It is a public map of products shaped by source-grounded workflows, governed execution, shared runtime ownership, and proof that stays close to the work.
+
 ## 1. 🚪 Enter through the Front Row
 
-These are the four fastest entrances into the portfolio. They keep the canonical order, but they are not a prize ranking.
+These are the four fastest entrances into the portfolio. They keep the canonical order, but they are not a prize ranking or a toy-project shelf.
 
 <table>
 <tr>
