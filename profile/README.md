@@ -7,7 +7,7 @@
 <p align="center"><strong>A public showroom for readable, reviewable, evidence-backed AI products.</strong><br>Start with four flagship doors, then move through the halls, routes, and the full atlas.</p>
 
 <p align="center">
-  <a href="https://github.com/xiaojiou176"><strong>Builder profile</strong></a> •
+  <a href="https://github.com/xiaojiou176"><strong>Author profile</strong></a> •
   <a href="#1--enter-through-the-front-row"><strong>Enter the front row</strong></a> •
   <a href="#2--browse-by-the-job-you-care-about"><strong>Browse by job</strong></a> •
   <a href="#3--walk-the-seven-halls"><strong>Walk the halls</strong></a> •
@@ -42,8 +42,8 @@ It matters because this portfolio starts by helping people understand the world,
 <td width="25%" valign="top">
 
 ### [OpenCampus](https://github.com/xiaojiou176-open/campus-copilot)
-**Choose under real constraints without crossing the line.**  
-A local-first academic workspace that pulls Canvas, Gradescope, EdStem, and MyUW into one place, then shows what changed, what is still open, and what needs attention first.  
+**Choose under real constraints without crossing the line.**
+An academic decision workspace that pulls Canvas, Gradescope, EdStem, and MyUW into one place, then shows what changed, what is still open, and what needs attention first.
 It matters because some decisions are real, high-stakes, and boundary-sensitive, not toy demos.
 
 </td>
@@ -84,7 +84,7 @@ It matters because a lot of visible tools break the moment nobody owns the runti
 | **Real-World Decision Workspaces** | The decision is real, but the information is fragmented and the boundary matters. | Turn scattered academic or shopping surfaces into safer decision environments instead of noisy dashboards. | [OpenCampus](https://github.com/xiaojiou176-open/campus-copilot), [DealWatch](https://github.com/xiaojiou176-open/dealwatch) |
 | **Control and Workflow Systems** | A workflow may run, but nobody can explain, inspect, or recover it. | Add governed execution, replay, and proof to serious AI work. | [OpenVibeCoding](https://github.com/xiaojiou176-open/CortexPilot-public) |
 | **AI Workbenches** | A chat box is too thin for real work. | Give prompting, comparison, delivery, and archive work a real workspace instead of a one-shot interface. | [multi-ai-sidepanel](https://github.com/xiaojiou176-open/multi-ai-sidepanel), [provenote](https://github.com/xiaojiou176-open/provenote), [openui-mcp-studio](https://github.com/xiaojiou176-open/openui-mcp-studio), [agent-exporter](https://github.com/xiaojiou176-open/agent-exporter) |
-| **Local Trust Labs** | Risky actions need preview, rollback, and forensic discipline. | Build local-first recovery, snapshot, and verification tools where trust comes from inspectability. | [apple-notes-snapshot](https://github.com/xiaojiou176-open/apple-notes-snapshot), [apple-notes-forensics](https://github.com/xiaojiou176-open/apple-notes-forensics), [movi-organizer](https://github.com/xiaojiou176-open/movi-organizer) |
+| **Trust and Recovery Labs** | Risky actions need preview, rollback, and forensic discipline. | Build recovery, snapshot, and verification tools where trust comes from inspectability. | [apple-notes-snapshot](https://github.com/xiaojiou176-open/apple-notes-snapshot), [apple-notes-forensics](https://github.com/xiaojiou176-open/apple-notes-forensics), [movi-organizer](https://github.com/xiaojiou176-open/movi-organizer) |
 | **Runtime and Proof Foundations** | Every visible product breaks if the runtime, proof, or recovery layer is weak. | Provide the shared runtime kernel and evidence substrate that keep the rest of the universe honest. | [Switchyard](https://github.com/xiaojiou176-open/Switchyard), [prooftrail](https://github.com/xiaojiou176-open/prooftrail), [ui-automation-control-plane](https://github.com/xiaojiou176-open/ui-automation-control-plane) |
 | **Browser Product Families** | System depth should become something a normal user can feel without reading architecture docs. | Turn browser workflows into product families instead of isolated utilities. | [Shopflow](https://github.com/xiaojiou176-open/shopflow-suite) |
 
