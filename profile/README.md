@@ -2,8 +2,6 @@
   <img src="https://raw.githubusercontent.com/xiaojiou176-open/.github/main/profile/assets/org-hero-gemini.svg" alt="xiaojiou176-open showroom hero" style="max-width: 100%; height: auto;">
 </p>
 
-<h1 align="center">xiaojiou176-open</h1>
-
 <p align="center"><strong>A public showroom for readable, reviewable, evidence-backed AI products.</strong><br>Start with four flagship doors, then move through the halls, routes, and the full atlas.</p>
 
 <p align="center">
