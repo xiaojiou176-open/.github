@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/xiaojiou176-open/.github/main/profile/assets/org-hero-gemini.svg" alt="xiaojiou176-open showroom hero" style="max-width: 100%; height: auto;">
 </p>
 
-<p align="center"><strong>A public showroom for readable, reviewable, evidence-backed AI products.</strong><br>Start with four flagship doors, then move through the halls, routes, and the full atlas.</p>
+<p align="center"><strong>A public showroom for readable, reviewable, evidence-backed AI products.</strong><br>Start with three flagship doors, then move through the halls, routes, and the full atlas.</p>
 
 <p align="center">
   <a href="https://github.com/xiaojiou176"><strong>Author profile</strong></a> •
@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <img alt="Flagship doors" src="https://img.shields.io/badge/Flagship%20doors-4-0F172A?style=for-the-badge&labelColor=111827">
+  <img alt="Flagship doors" src="https://img.shields.io/badge/Flagship%20doors-3-0F172A?style=for-the-badge&labelColor=111827">
   <img alt="Product halls" src="https://img.shields.io/badge/Product%20halls-7-0891B2?style=for-the-badge&labelColor=111827">
   <img alt="Visible atlas" src="https://img.shields.io/badge/Visible%20atlas-full%20product%20map-7C3AED?style=for-the-badge&labelColor=111827">
   <img alt="Built in public" src="https://img.shields.io/badge/Built%20in%20public-GitHub-0F766E?style=for-the-badge&logo=github&logoColor=white&labelColor=111827">
@@ -27,7 +27,7 @@
 
 ## 1. 🚪 Enter through the Front Row
 
-These are the four fastest entrances into the portfolio. They keep the canonical order, but they are not a prize ranking or a toy-project shelf.
+These are the three fastest entrances into the portfolio. They keep the canonical order, but they are not a prize ranking or a toy-project shelf.
 
 <table>
 <tr>
@@ -53,14 +53,6 @@ It matters because some decisions are real, high-stakes, and boundary-sensitive,
 **Make execution trustworthy, not just impressive.**  
 An open command tower for AI engineering that helps teams plan, delegate, track, resume, and prove long-running work instead of juggling chats, scripts, and after-the-fact logs.  
 It matters because serious AI systems need inspection, governance, and recovery, not just surface polish.
-
-</td>
-<td width="25%" valign="top">
-
-### [Switchyard](https://github.com/xiaojiou176-open/Switchyard)
-**Give the rest of the universe one runtime to stand on.**  
-A shared provider runtime kernel that unifies BYOK, Web/Login access, provider routing, and runtime diagnostics into one reusable layer for the products above it.  
-It matters because a lot of visible tools break the moment nobody owns the runtime and access layer underneath them.
 
 </td>
 </tr>
@@ -91,9 +83,10 @@ It matters because a lot of visible tools break the moment nobody owns the runti
 ## 4. ⭐ Flagship Reserve
 
 If you want the strongest second-ring doors after the front row, open these next.
-This shelf should widen the picture, not repeat the same four doors again.
+This shelf should widen the picture, not repeat the same three doors again.
 
 - [docsiphon](https://github.com/xiaojiou176-open/docsiphon) — if you want the strongest extra doorway into CLI/corpus engineering and document-to-artifact pipelines.
+- [Switchyard](https://github.com/xiaojiou176-open/Switchyard) — if you want the shared runtime and access foundation underneath the visible product surfaces.
 - [Shopflow](https://github.com/xiaojiou176-open/shopflow-suite) — if you want the clearest proof that this universe can ship consumer-facing browser product families.
 - [DealWatch](https://github.com/xiaojiou176-open/dealwatch) — if you want the cleanest browser-native example of compare-first, evidence-backed decision making.
 - [agent-exporter](https://github.com/xiaojiou176-open/agent-exporter) — if you want the archive, governance, and transcript-to-evidence side of the system.
