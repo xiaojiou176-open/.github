@@ -33,34 +33,46 @@ These are the four fastest entrances into the portfolio. They keep the canonical
 <tr>
 <td width="25%" valign="top">
 
-### [SourceHarbor](https://github.com/xiaojiou176-open/sourceharbor)
-**Readable outputs from raw source streams.**  
-A reading product that turns messy source material into traceable documents, briefings, and grounded answers a human would actually keep.  
-It matters because this portfolio starts by helping people understand the world, not just collect more feeds and dashboards.
+### 📚 [SourceHarbor](https://github.com/xiaojiou176-open/sourceharbor)
+**Readable outputs from raw source streams.**
+<ul>
+  <li><strong>Need:</strong> too much source material, but not enough clarity</li>
+  <li><strong>What it is:</strong> a reading product that turns messy source streams into traceable documents, briefings, and grounded answers</li>
+  <li><strong>Why it matters:</strong> this portfolio starts by helping people understand the world, not just collect more feeds</li>
+</ul>
 
 </td>
 <td width="25%" valign="top">
 
-### [OpenCampus](https://github.com/xiaojiou176-open/campus-copilot)
+### 🎓 [OpenCampus](https://github.com/xiaojiou176-open/campus-copilot)
 **Choose under real constraints without crossing the line.**
-An academic decision workspace that pulls Canvas, Gradescope, EdStem, and MyUW into one place, then shows what changed, what is still open, and what needs attention first.
-It matters because some decisions are real, high-stakes, and boundary-sensitive, not toy demos.
+<ul>
+  <li><strong>Need:</strong> school work is fragmented, but the decision still has real stakes</li>
+  <li><strong>What it is:</strong> an academic decision workspace that unifies Canvas, Gradescope, EdStem, and MyUW</li>
+  <li><strong>Why it matters:</strong> some decisions are high-stakes and boundary-sensitive, not toy demos</li>
+</ul>
 
 </td>
 <td width="25%" valign="top">
 
-### [OpenVibeCoding](https://github.com/xiaojiou176-open/CortexPilot-public)
-**Make execution trustworthy, not just impressive.**  
-An open command tower for AI engineering that helps teams plan, delegate, track, resume, and prove long-running work instead of juggling chats, scripts, and after-the-fact logs.  
-It matters because serious AI systems need inspection, governance, and recovery, not just surface polish.
+### 🧭 [OpenVibeCoding](https://github.com/xiaojiou176-open/CortexPilot-public)
+**Make execution trustworthy, not just impressive.**
+<ul>
+  <li><strong>Need:</strong> long-running AI work breaks when teams rely on chats, scripts, and after-the-fact logs</li>
+  <li><strong>What it is:</strong> an open command tower for planning, delegation, tracking, replay, and proof</li>
+  <li><strong>Why it matters:</strong> serious AI systems need inspection, governance, and recovery, not just polish</li>
+</ul>
 
 </td>
 <td width="25%" valign="top">
 
-### [Switchyard](https://github.com/xiaojiou176-open/Switchyard)
-**Give the rest of the universe one runtime to stand on.**  
-A shared provider runtime kernel that unifies BYOK, Web/Login access, provider routing, and runtime diagnostics into one reusable layer for the products above it.  
-It matters because a lot of visible tools break the moment nobody owns the runtime and access layer underneath them.
+### 🔌 [Switchyard](https://github.com/xiaojiou176-open/Switchyard)
+**Give the rest of the universe one runtime to stand on.**
+<ul>
+  <li><strong>Need:</strong> visible AI tools keep rebuilding the same access and routing layer from scratch</li>
+  <li><strong>What it is:</strong> a shared provider runtime kernel for BYOK, Web/Login access, routing, and diagnostics</li>
+  <li><strong>Why it matters:</strong> products above it stay honest only if somebody owns the runtime underneath</li>
+</ul>
 
 </td>
 </tr>
@@ -80,13 +92,13 @@ It matters because a lot of visible tools break the moment nobody owns the runti
 
 | Hall | What pain it fixes | What these repos actually do | Representative repos |
 | --- | --- | --- | --- |
-| **Reading and Knowledge Products** | Too much source material, not enough clarity. | Rebuild feeds, documents, and source streams into reading-grade outputs that a person would keep. | [SourceHarbor](https://github.com/xiaojiou176-open/sourceharbor), [docsiphon](https://github.com/xiaojiou176-open/docsiphon) |
-| **Real-World Decision Workspaces** | The decision is real, but the information is fragmented and the boundary matters. | Turn scattered academic or shopping surfaces into safer decision environments instead of noisy dashboards. | [OpenCampus](https://github.com/xiaojiou176-open/campus-copilot), [DealWatch](https://github.com/xiaojiou176-open/dealwatch) |
-| **Control and Workflow Systems** | A workflow may run, but nobody can explain, inspect, or recover it. | Add governed execution, replay, and proof to serious AI work. | [OpenVibeCoding](https://github.com/xiaojiou176-open/CortexPilot-public) |
-| **AI Workbenches** | A chat box is too thin for real work. | Give prompting, comparison, delivery, and archive work a real workspace instead of a one-shot interface. | [multi-ai-sidepanel](https://github.com/xiaojiou176-open/multi-ai-sidepanel), [provenote](https://github.com/xiaojiou176-open/provenote), [openui-mcp-studio](https://github.com/xiaojiou176-open/openui-mcp-studio), [agent-exporter](https://github.com/xiaojiou176-open/agent-exporter) |
-| **Trust and Recovery Labs** | Risky actions need preview, rollback, and forensic discipline. | Build recovery, snapshot, and verification tools where trust comes from inspectability. | [apple-notes-snapshot](https://github.com/xiaojiou176-open/apple-notes-snapshot), [apple-notes-forensics](https://github.com/xiaojiou176-open/apple-notes-forensics), [movi-organizer](https://github.com/xiaojiou176-open/movi-organizer) |
-| **Runtime and Proof Foundations** | Every visible product breaks if the runtime, proof, or recovery layer is weak. | Provide the shared runtime kernel and evidence substrate that keep the rest of the universe honest. | [Switchyard](https://github.com/xiaojiou176-open/Switchyard), [prooftrail](https://github.com/xiaojiou176-open/prooftrail), [ui-automation-control-plane](https://github.com/xiaojiou176-open/ui-automation-control-plane) |
-| **Browser Product Families** | System depth should become something a normal user can feel without reading architecture docs. | Turn browser workflows into product families instead of isolated utilities. | [Shopflow](https://github.com/xiaojiou176-open/shopflow-suite) |
+| **📚 Reading and Knowledge Products** | <ul><li>too much source material</li><li>not enough clarity</li></ul> | <ul><li>rebuild feeds, documents, and source streams</li><li>turn them into reading-grade outputs people would actually keep</li></ul> | [SourceHarbor](https://github.com/xiaojiou176-open/sourceharbor), [docsiphon](https://github.com/xiaojiou176-open/docsiphon) |
+| **🎯 Real-World Decision Workspaces** | <ul><li>the decision is real</li><li>the information is fragmented</li><li>the boundary matters</li></ul> | <ul><li>turn scattered academic or shopping surfaces into safer decision environments</li><li>replace noisy dashboards with clearer judgment</li></ul> | [OpenCampus](https://github.com/xiaojiou176-open/campus-copilot), [DealWatch](https://github.com/xiaojiou176-open/dealwatch) |
+| **🧭 Control and Workflow Systems** | <ul><li>a workflow may run</li><li>but nobody can explain, inspect, or recover it</li></ul> | <ul><li>add governed execution</li><li>add replay and proof to serious AI work</li></ul> | [OpenVibeCoding](https://github.com/xiaojiou176-open/CortexPilot-public) |
+| **🧠 AI Workbenches** | <ul><li>a chat box is too thin for real work</li></ul> | <ul><li>turn prompting, comparison, delivery, and archive work into real workspaces</li><li>avoid one-shot interfaces</li></ul> | [multi-ai-sidepanel](https://github.com/xiaojiou176-open/multi-ai-sidepanel), [provenote](https://github.com/xiaojiou176-open/provenote), [openui-mcp-studio](https://github.com/xiaojiou176-open/openui-mcp-studio), [agent-exporter](https://github.com/xiaojiou176-open/agent-exporter) |
+| **🛡️ Trust and Recovery Labs** | <ul><li>risky actions need preview</li><li>rollback and forensic discipline matter</li></ul> | <ul><li>build recovery, snapshot, and verification tools</li><li>make trust come from inspectability</li></ul> | [apple-notes-snapshot](https://github.com/xiaojiou176-open/apple-notes-snapshot), [apple-notes-forensics](https://github.com/xiaojiou176-open/apple-notes-forensics), [movi-organizer](https://github.com/xiaojiou176-open/movi-organizer) |
+| **🔌 Runtime and Proof Foundations** | <ul><li>every visible product breaks when runtime, proof, or recovery is weak</li></ul> | <ul><li>provide the shared runtime kernel</li><li>provide the evidence substrate that keeps the universe honest</li></ul> | [Switchyard](https://github.com/xiaojiou176-open/Switchyard), [prooftrail](https://github.com/xiaojiou176-open/prooftrail), [ui-automation-control-plane](https://github.com/xiaojiou176-open/ui-automation-control-plane) |
+| **🛍️ Browser Product Families** | <ul><li>system depth should feel useful without reading architecture docs</li></ul> | <ul><li>turn browser workflows into product families</li><li>avoid isolated utilities</li></ul> | [Shopflow](https://github.com/xiaojiou176-open/shopflow-suite) |
 
 ## 4. ⭐ Flagship Reserve
 
