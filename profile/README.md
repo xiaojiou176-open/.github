@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/xiaojiou176-open/.github/main/profile/assets/org-hero-gemini.svg" alt="xiaojiou176-open showroom hero" style="max-width: 100%; height: auto;">
 </p>
 
-<p align="center"><strong>A public showroom for readable, reviewable, evidence-backed AI products.</strong><br>Start with four flagship doors, then move through the halls, routes, and the full atlas.</p>
+<p align="center"><strong>A public showroom for AI products built from real, underestimated workflow needs.</strong><br>Start with four flagship doors, then explore how reading, decision, execution, runtime, and proof products grow out of the same product thesis.</p>
 
 <p align="center">
   <a href="https://github.com/xiaojiou176"><strong>Author profile</strong></a> •
@@ -23,7 +23,7 @@
 > Start with one flagship door. If it clicks, the rest of the atlas will make sense.  
 > Built in public out of **Seattle, WA (PT)**.
 
-> This is not a shelf of classroom demos or one-off AI wrappers. It is a public map of products shaped by source-grounded workflows, governed execution, shared runtime ownership, and proof that stays close to the work.
+> This is not a shelf of demos, wrappers, or side projects. It is a public map of products that started from real workflow pain, then grew into systems for reading, deciding, executing, connecting, and proving work under real constraints.
 
 ## 1. 🚪 Enter through the Front Row
 
